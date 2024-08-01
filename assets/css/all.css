@@ -1,0 +1,236 @@
+:root {
+
+    /**
+     * colors
+     */
+  
+    --spanish-gray: hsl(0, 0%, 60%);
+    --sonic-silver: hsl(0, 2%, 37%);
+    --eerie-black: hsl(0, 0%, 13%);
+    --salmon-pink: hsl(245, 81%, 50%);
+    --sandy-brown: hsl(200, 90%, 49%);
+    --bittersweet: hsl(285, 89%, 62%);
+    --ocean-green: hsl(152, 51%, 52%);
+    --davys-gray: hsl(0, 0%, 33%);
+    --cultured: hsl(0, 0%, 93%);
+    --white: hsl(0, 100%, 100%);
+    --onyx: hsl(0, 0%, 27%);
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cultured);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--eerie-black);
+    margin-bottom: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    padding: 10px;
+    border: 1px solid var(--spanish-gray);
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: var(--ocean-green);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: var(--onyx);
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.product-card {
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info h3 {
+    margin: 0 0 10px;
+    color: var(--eerie-black);
+}
+
+.product-info p {
+    margin: 0 0 15px;
+    color: var(--sonic-silver);
+    flex-grow: 1;
+}
+
+.product-features {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.product-features ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-features li {
+    margin-bottom: 5px;
+    color: var(--davys-gray);
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-top: 1px solid var(--spanish-gray);
+    padding-top: 15px;
+}
+
+.view-details {
+    background-color: var(--sandy-brown);
+    color: var(--white);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.view-details:hover {
+    background-color: var(--bittersweet);
+}
+
+.compare-checkbox {
+    display: flex;
+    align-items: center;
+    color: var(--eerie-black);
+    font-size: 14px;
+}
+
+.compare-checkbox input {
+    margin-right: 5px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.contact-button {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.call-now {
+    background-color: var(--ocean-green);
+}
+
+.whatsapp {
+    background-color: var(--bittersweet);
+}
+
+.connect {
+    background-color: var(--eerie-black);
+}
+
+.view-all-products {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: var(--eerie-black);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .product-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .search-box {
+        width: 200px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .contact-button {
+        margin: 5px 0;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.product-card {
+    animation: fadeIn 0.5s ease-out;
+}

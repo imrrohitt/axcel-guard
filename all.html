@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AxcelGuard - eCommerce Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <link rel="stylesheet" href="./assets/css/all.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <style>
+        .header-main {
+            position: absolute;
+            top: -2%;
+        }
+    
+        /* Media Query for Mobile View */
+@media screen and (max-width: 600px) {
+    .header-main {
+        position: relative;
+        top: 0;
+    }
+
+}
+    </style>
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+ <div class="modal" style="display: none;" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Anon</b> to get latest products and discount update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+ 
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div style="display: none;" class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./images/AI_mdvr/AI mdvr.jpg" alt="Rose Gold Earrings" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        AI MVDR
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">2 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div> 
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+    <div class="header-main">
+      <div class="container"   >
+        <a href="#" class="header-logo">
+          <!-- <img src="./images/logo.png" alt="AxcelGuard's logo" width="100" height="90"> -->
+          <h2>AxcelGuard</h2>
+        </a>
+  
+        <div class="header-search-container" style="display: none;">
+          <input type="search" name="search" class="search-field" placeholder="Search for AxcelGuard products...">
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+  
+        <div class="header-user-actions" style="display: none;">
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+  
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+  
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  
+    <nav class="desktop-navigation-menu">
+      <div class="container">
+        <ul class="desktop-menu-category-list">
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Products</a>
+  
+            <div class="dropdown-panel">
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Security Systems</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">CCTV Cameras</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Alarm Systems</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Access Control</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Intercoms</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/security-systems-banner.jpg" alt="Security Systems" width="250" height="119">
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Smart Home</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Smart Locks</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Smart Lighting</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Smart Thermostats</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Home Automation</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/smart-home-banner.jpg" alt="Smart Home" width="250" height="119">
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Network Solutions</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Routers</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Switches</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Access Points</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Cabling</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/network-solutions-banner.jpg" alt="Network Solutions" width="250" height="119">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Support</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class="mobile-bottom-navigation">
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <a href="index.html" class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </a>
+      <a href="all.html" class="action-btn">
+        <ion-icon name="grid-outline"></ion-icon>
+      </a>
+    </div>
+  
+    <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+  
+      <ul class="mobile-menu-category-list">
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+        <li class="menu-category">
+          <button>
+            <p class="menu-title">Products</p>
+          </button>
+          <ul class="submenu-category-list">
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Security Systems</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Smart Home</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Network Solutions</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-category">
+          <a href="#" class="menu-title">Support</a>
+        </li>
+        <li class="menu-category">
+          <a href="#" class="menu-title">Contact Us</a>
+        </li>
+      </ul>
+  
+      <div class="menu-bottom">
+      
+  
+        <ul class="menu-social-container">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+
+
+
+    <div class="container">
+        <div class="search-container">
+            <input type="search" id="search-input" placeholder="Search products..." class="search-box">
+            <button id="search-button" class="search-button">Search</button>
+        </div>
+        <div class="product-gallery">
+            <!-- Products will be dynamically added here -->
+        </div> 
+        <!-- <a href="#" class="view-all-products">View All Products</a> -->
+    </div>
+
+  <!--
+    - FOOTER
+  -->
+  <footer>
+
+    <div class="footer-category">
+  
+      <div class="container">
+  
+        <h2 class="footer-category-title">Explore Our Solutions</h2>
+  
+        <div class="footer-category-box">
+  
+          <h3 class="category-box-title">Security Solutions :</h3>
+  
+          <a href="#" class="footer-category-link">Home Security Systems</a>
+          <a href="#" class="footer-category-link">Commercial Security</a>
+          <a href="#" class="footer-category-link">Surveillance Cameras</a>
+          <a href="#" class="footer-category-link">Access Control</a>
+          <a href="#" class="footer-category-link">Alarm Systems</a>
+          <a href="#" class="footer-category-link">Smart Home Integration</a>
+          <a href="#" class="footer-category-link">Fire Safety</a>
+  
+        </div>
+  
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Services :</h3>
+        
+          <a href="#" class="footer-category-link">Consulting</a>
+          <a href="#" class="footer-category-link">Installation</a>
+          <a href="#" class="footer-category-link">Maintenance</a>
+          <a href="#" class="footer-category-link">24/7 Monitoring</a>
+          <a href="#" class="footer-category-link">System Upgrades</a>
+          <a href="#" class="footer-category-link">Custom Solutions</a>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+    <div class="footer-nav">
+  
+      <div class="container">
+  
+        <ul class="footer-nav-list">
+  
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Company Info</h2>
+          </li>
+  
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About Us</a>
+          </li>
+  
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Our Team</a>
+          </li>
+  
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Careers</a>
+          </li>
+  
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Blog</a>
+          </li>
+  
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact Us</a>
+          </li>
+  
+        </ul>
+  
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Support</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">FAQs</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Help Center</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Technical Support</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Warranty Information</a>
+          </li>
+        
+        </ul>
+  
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Legal</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Privacy Policy</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms of Service</a>
+          </li>
+        
+        </ul>
+  
+        <ul class="footer-nav-list">
+  
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Connect with Us</h2>
+          </li>
+  
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+  
+            <address class="content">
+              123 Security Lane
+              Tech City, TX 75001, USA
+            </address>
+          </li>
+  
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+  
+            <a href="tel:+1234567890" class="footer-nav-link">(123) 456-7890</a>
+          </li>
+  
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+  
+            <a href="mailto:support@axel-guard.com" class="footer-nav-link">support@axel-guard.com</a>
+          </li>
+  
+        </ul>
+  
+        <ul class="footer-nav-list">
+  
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+  
+          <li>
+            <ul class="social-link">
+  
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+  
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+  
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+  
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+            </ul>
+          </li>
+  
+        </ul>
+  
+      </div>
+  
+    </div>
+  
+    <div class="footer-bottom">
+  
+      <div class="container">
+  
+        <img src="./assets/images/payment.png" alt="Payment Methods" class="payment-img">
+  
+        <p class="copyright">
+          &copy; <a href="#">Axel Guard</a> 2024. All rights reserved.
+        </p>
+  
+      </div>
+  
+    </div>
+  
+  </footer>
+  
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+    function fetch_data() {
+        const jsonUrl = 'data.json';
+
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => {
+                const filteredRows = data.filter(row => {
+                    const serialNo = row["S.No"].toString().trim();
+                    return serialNo && /^[0-9]+$/.test(serialNo);
+                });
+
+                const gallery = document.querySelector('.product-gallery');
+                filteredRows.forEach((row, index) => {
+                    const productName = row["Product Name"];
+                    const productCode = row["Product Code"];
+                    const weight = row["Weight in Kg"];
+                    const productImage1 = row["Product Images1"];
+                    const productDescription = `Product Code: ${productCode}, Weight: ${weight}kg`;
+                    const features = row["Product Specification"].features.slice(0, 3);
+                    
+                    const productCard = document.createElement('div');
+                    productCard.classList.add('product-card');
+                    productCard.style.animationDelay = `${index * 0.1}s`;
+                    productCard.innerHTML = `
+                        <img src="${productImage1}" alt="${productName}">
+                        <div class="product-info">
+                            <h3>${productName}</h3>
+                            <p>${productDescription}</p>
+                            <div class="product-features">
+                                <ul>
+                                    ${features.map(feature => `<li>${feature}</li>`).join('')}
+                                </ul>
+                            </div>
+                            <div class="product-actions">
+                                <a href="description.html?productCode=${productCode}" class="view-details">View Details</a>
+                                <label class="compare-checkbox">
+                                    <input type="checkbox" name="compare" value="${productCode}">
+                                    Compare
+                                </label>
+                            </div>
+                            <div class="contact-buttons">
+                                <a href="tel:+1234567890" class="contact-button call-now">Call Now</a>
+                                <a href="https://wa.me/1234567890" class="contact-button whatsapp">WhatsApp</a>
+                                <a href="#" class="contact-button connect">Connect</a>
+                            </div>
+                        </div>
+                    `;
+                    gallery.appendChild(productCard);
+                });
+            })
+            .catch(error => console.error('Error fetching the JSON file:', error));
+    }
+
+    function searchProducts() {
+        const searchInput = document.getElementById('search-input');
+        const searchQuery = searchInput.value.toLowerCase();
+        const gallery = document.querySelector('.product-gallery');
+        const products = gallery.children;
+
+        Array.from(products).forEach((product) => {
+            const productName = product.querySelector('h3').textContent.toLowerCase();
+            const productDescription = product.querySelector('p').textContent.toLowerCase();
+            const productFeatures = product.querySelector('.product-features').textContent.toLowerCase();
+
+            if (productName.includes(searchQuery) || productDescription.includes(searchQuery) || productFeatures.includes(searchQuery)) {
+                product.style.display = 'block';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    }
+
+    document.getElementById('search-input').addEventListener('keyup', searchProducts);
+    document.getElementById('search-button').addEventListener('click', searchProducts);
+
+    fetch_data();
+    </script>
+</body>
+</html>
