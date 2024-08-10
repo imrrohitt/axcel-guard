@@ -1344,6 +1344,96 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-grid del { color: var(--sonic-silver); }
 
 
+.product-main {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Adjust color as needed */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff; /* Adjust color as needed */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Fixed height for consistency */
+  position: relative;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image-container {
+  height: 50%; /* Half of the card height */
+  overflow: hidden;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 50%; /* Remaining height for details */
+  justify-content: space-between;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 0;
+  color: #333; /* Adjust color as needed */
+  font-weight: bold;
+}
+
+.product-description {
+  margin: 10px 0;
+  color: #666; /* Adjust color as needed */
+  flex-grow: 1; /* Ensure it grows to fit available space */
+  overflow: hidden; /* Hide overflow if needed */
+  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit description to 3 lines */
+  -webkit-box-orient: vertical;
+}
+
+.product-category {
+  font-size: 14px;
+  color: #007BFF; /* Adjust color as needed */
+  font-weight: bold;
+}
+
+.view-details {
+  background-color: #007BFF; /* Adjust color as needed */
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.view-details:hover {
+  background-color: #0056b3; /* Adjust color as needed */
+}
 
 
 

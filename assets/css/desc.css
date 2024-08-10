@@ -1,141 +1,186 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: var(--cultured);
-    color: var(--sonic-silver);
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.6;
 }
 
 h1, h2 {
-    color: var(--salmon-pink);
-    transition: color 0.3s ease;
+    color: #333;
 }
 
 /* Container Description */
 .container-desc {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
     padding: 20px;
-    background-color: var(--white);
+    background-color: #fff;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 70px auto;
+    border-radius: 8px;
     max-width: 1200px;
-    transition: box-shadow 0.3s ease;
-    margin: auto;
+    margin: 40px auto;
+    background: linear-gradient(to top, #fff, #f9f9f9);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .container-desc:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
 }
 
 /* Product Details */
 .product-details {
-    flex: 1 1 100%;
-    text-align: center;
-    transition: flex 0.3s ease;
+    flex: 1;
+    padding: 20px;
+    position: relative;
 }
 
-/* Product Image */
-.product-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    object-fit: contain;
-    border: 1px solid var(--spanish-gray);
-    margin-bottom: 20px;
-    transition: border-color 0.3s ease;
+.product-details img.product-image {
+    width: 100%; /* Ensure image fills the container width */
+    height: 300px; /* Fixed height to maintain consistency */
+    object-fit: cover; /* Maintain aspect ratio, crop as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 }
 
-.product-image:hover {
-    border-color: var(--salmon-pink);
+.product-details img.product-image:hover {
+    transform: scale(1.05);
 }
 
 /* Thumbnail Container */
 .thumbnail-container {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .thumbnail-image {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
     cursor: pointer;
-    border: 1px solid var(--spanish-gray);
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
 
 .thumbnail-image.active {
-    border: 2px solid var(--salmon-pink);
+    border-color: #5406fd;
 }
 
 .thumbnail-image:hover {
+    border-color: #0b046e;
     transform: scale(1.1);
 }
 
 /* Product Info */
 .product-info {
     text-align: left;
-    padding: 0 20px;
-    transition: padding 0.3s ease;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    background-color: #fafafa;
+    border-radius: 8px;
 }
 
-/* Table */
-table {
-    width: 100%;
-    border-collapse: collapse;
+.product-info h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
     margin-bottom: 20px;
-    transition: font-size 0.3s ease;
+    position: relative;
 }
 
-table, tr, td {
-    border: 1px solid var(--spanish-gray);
+.product-info h1::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #4e3afd;
 }
 
-td {
-    padding: 10px;
-    transition: padding 0.3s ease;
+.product-info h2 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    color: #3523f9;
+}
+
+.product-info p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Specification Points */
+.specification-point {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.specification-point:last-child {
+    border-bottom: none;
+}
+
+.specification-point h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #341ff5;
+    padding-bottom: 5px;
+}
+
+.specification-point p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
 }
 
 /* PDF Download Container */
 #pdfDownloadContainer {
-    text-decoration: none;
-    color: var(--white);
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px 0;
-    background-color: var(--bittersweet);
-    display: inline-block;
-    transition: background-color 0.3s ease;
+    margin: 20px 0;
 }
 
 #pdfDownloadContainer a {
+    display: inline-block;
     text-decoration: none;
-    color: var(--white);
-    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #6f5df3, #1905f4);
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
-#pdfDownloadContainer:hover {
-    background-color: var(--davys-gray);
-}
-
-/* Site Footer */
-.site-footer {
-    background-color: var(--eerie-black);
-    color: var(--white);
-    padding: 20px;
-    text-align: center;
-    transition: background-color 0.3s ease;
+#pdfDownloadContainer a:hover {
+    background: linear-gradient(45deg, #273ff3, #c9a2eb);
+    transform: scale(1.05);
 }
 
 /* Media Queries */
 @media (min-width: 768px) {
+    .container-desc {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
     .product-details {
         flex: 1 1 50%;
+    }
+
+    .product-info {
+        flex: 1 1 50%;
+        border-left: 1px solid #ddd;
+        padding-left: 20px;
     }
 
     .thumbnail-container {
@@ -145,48 +190,35 @@ td {
 
 @media (max-width: 768px) {
     .container-desc {
-        padding: 10px;
+        flex-direction: column;
     }
 
-    .product-details {
+    .product-details, .product-info {
         flex: 1 1 100%;
         padding: 10px;
     }
 
-    .product-image {
-        max-width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .thumbnail-container {
-        margin-top: 5px;
-    }
-
-    .thumbnail-image {
-        width: 50px;
-        height: 50px;
-        margin-right: 5px;
-    }
-
-    table, tr, td {
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    h2 {
-        font-size: 20px;
-        margin-bottom: 5px;
-    }
-
     .product-info {
+        border-left: none;
         padding: 10px;
     }
 
-    td {
-        padding: 5px;
+    .thumbnail-image {
+        width: 80px;
+        height: 80px;
+        margin-right: 5px;
+    }
+
+    .product-info h1 {
+        font-size: 2rem;
+    }
+
+    #pdfDownloadContainer a {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .specification-point h3 {
+        font-size: 1.2rem;
     }
 }

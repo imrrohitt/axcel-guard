@@ -53,7 +53,7 @@
     - MODAL
   -->
 
- <div class="modal" style="display: none;" data-modal>
+ <div class="modal"  data-modal>
 
     <div class="modal-close-overlay" data-modal-overlay></div>
 
@@ -338,25 +338,24 @@
 
 
 
-    <div class="container-desc">
-        <div class="product-details">
-            <img class="product-image" id="productImage" src="" alt="">
-            <div class="thumbnail-container" id="thumbnailContainer"></div>
-        </div>
-        <div class="product-details">
-            <div class="product-info">
-                <h1 id="productName"></h1>
-                <p id="productDescription"></p>
-                <div id="pdfDownloadContainer"></div>
-                <div class="product-specifications">
-                    <h2>Features</h2>
-                    <table id="productFeaturesTable"></table>
-                    <h2>Technical Features</h2>
-                    <table id="technicalFeaturesTable"></table>
-                </div>
-            </div>
+  <div class="container-desc">
+    <div class="product-details">
+        <img class="product-image" id="productImage" src="" alt="Product Image">
+        <div class="thumbnail-container" id="thumbnailContainer"></div>
+    </div>
+    <div class="product-info">
+        <h1 id="productName"></h1>
+        <p id="productDescription"></p>
+        <div id="pdfDownloadContainer"></div>
+        <div class="product-specifications">
+            <h2>Features</h2>
+            <div id="productFeaturesContainer"></div>
         </div>
     </div>
+</div>
+
+
+
 
    <!--
     - FOOTER
@@ -586,114 +585,83 @@
     }
 
     function fetchProductData() {
-        const productCode = getQueryParam('productCode');
+    const productCode = getQueryParam('productCode');
 
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                const product = data.find(row => row["Product Code"] === productCode);
-                if (product) {
-                    document.getElementById('productName').textContent = product["Product Name"];
-                    document.getElementById('productDescription').textContent = `Product Code: ${product["Product Code"]}, Weight: ${product["Weight in Kg"]}kg`;
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            const product = data.find(row => row["Product Code"] === productCode);
+            if (product) {
+                document.getElementById('productName').textContent = product["Product Name"];
+                document.getElementById('productDescription').textContent = product["Product Specification"].description;
 
-                    const productImages = [
-                        product["Product Images1"],
-                        product["Product Images2"],
-                        product["Product Images3"],
-                        product["Product Images4"],
-                        product["Product Images5"]
-                    ];
+                const productImages = [
+                    product["Product Images1"],
+                    product["Product Images2"],
+                    product["Product Images3"],
+                    product["Product Images4"],
+                    product["Product Images5"]
+                ];
 
-                    const thumbnailContainer = document.getElementById('thumbnailContainer');
-                    let thumbnailImages = [];
+                const thumbnailContainer = document.getElementById('thumbnailContainer');
+                thumbnailContainer.innerHTML = '';
+                let thumbnailImages = [];
 
-                    productImages.forEach((image, index) => {
-                        if (image) {
-                            const thumbnailImage = document.createElement('img');
-                            thumbnailImage.classList.add('thumbnail-image');
-                            thumbnailImage.src = image;
-                            thumbnailImage.alt = product["Product Name"];
-                            thumbnailImage.addEventListener('click', () => {
-                                document.getElementById('productImage').src = image;
-                                setActiveThumbnail(index);
-                            });
-                            thumbnailContainer.appendChild(thumbnailImage);
-                            thumbnailImages.push(thumbnailImage);
+                productImages.forEach((image, index) => {
+                    if (image) {
+                        const thumbnailImage = document.createElement('img');
+                        thumbnailImage.classList.add('thumbnail-image');
+                        thumbnailImage.src = image;
+                        thumbnailImage.alt = product["Product Name"];
+                        thumbnailImage.addEventListener('click', () => {
+                            document.getElementById('productImage').src = image;
+                            setActiveThumbnail(index);
+                        });
+                        thumbnailContainer.appendChild(thumbnailImage);
+                        thumbnailImages.push(thumbnailImage);
 
-                            if (index === 0) {
-                                thumbnailImage.classList.add('active');
-                                document.getElementById('productImage').src = image;
-                            }
+                        if (index === 0) {
+                            thumbnailImage.classList.add('active');
+                            document.getElementById('productImage').src = image;
                         }
-                    });
-
-                    const features = product["Product Specification"];
-
-                    const productFeaturesTable = document.getElementById('productFeaturesTable');
-                    productFeaturesTable.innerHTML = '';
-                    features.features.forEach(feature => {
-                        const row = document.createElement('tr');
-                        const headingCell = document.createElement('td');
-                        const descriptionCell = document.createElement('td');
-
-                        if (feature.includes(':')) {
-                            const [heading, ...descriptionParts] = feature.split(':');
-                            headingCell.style.fontWeight = 'bold';
-                            headingCell.textContent = heading.trim();
-                            descriptionCell.textContent = descriptionParts.join(':').trim();
-                        } else {
-                            headingCell.textContent = '';
-                            descriptionCell.colSpan = 2;
-                            descriptionCell.textContent = feature.trim();
-                        }
-
-                        row.appendChild(headingCell);
-                        row.appendChild(descriptionCell);
-                        productFeaturesTable.appendChild(row);
-                    });
-
-                    const technicalFeaturesTable = document.getElementById('technicalFeaturesTable');
-                    technicalFeaturesTable.innerHTML = '';
-                    features.technical_parameters.forEach(feature => {
-                        const row = document.createElement('tr');
-                        const headingCell = document.createElement('td');
-                        const descriptionCell = document.createElement('td');
-
-                        if (feature.includes(':')) {
-                            const [heading, ...descriptionParts] = feature.split(':');
-                            headingCell.style.fontWeight = 'bold';
-                            headingCell.textContent = heading.trim();
-                            descriptionCell.textContent = descriptionParts.join(':').trim();
-                        } else {
-                            headingCell.textContent = '';
-                            descriptionCell.colSpan = 2;
-                            descriptionCell.textContent = feature.trim();
-                        }
-
-                        row.appendChild(headingCell);
-                        row.appendChild(descriptionCell);
-                        technicalFeaturesTable.appendChild(row);
-                    });
-
-                    if (product["Product DataSheet"]) {
-                        const pdfDownloadContainer = document.getElementById('pdfDownloadContainer');
-                        const pdfDownloadLink = document.createElement('a');
-                        pdfDownloadLink.href = product["Product DataSheet"];
-                        pdfDownloadLink.textContent = 'Download Product Features PDF';
-                        pdfDownloadLink.download = '';
-                        pdfDownloadContainer.appendChild(pdfDownloadLink);
                     }
+                });
 
-                    activateNextThumbnail(thumbnailImages, productImages);
-                } else {
-                    document.querySelector('.product-info').textContent = 'Product not found.';
+                const specializationPoints = product["Product Specification"].SpecializationPoints;
+
+                const productFeaturesContainer = document.getElementById('productFeaturesContainer');
+                productFeaturesContainer.innerHTML = '';
+                specializationPoints.forEach(point => {
+                    const featureDiv = document.createElement('div');
+                    featureDiv.classList.add('feature-item');
+                    const heading = document.createElement('h3');
+                    heading.textContent = point.feature;
+                    const description = document.createElement('p');
+                    description.textContent = point.description;
+                    featureDiv.appendChild(heading);
+                    featureDiv.appendChild(description);
+                    productFeaturesContainer.appendChild(featureDiv);
+                });
+
+                if (product["Product DataSheet"]) {
+                    const pdfDownloadContainer = document.getElementById('pdfDownloadContainer');
+                    const pdfDownloadLink = document.createElement('a');
+                    pdfDownloadLink.href = product["Product DataSheet"];
+                    pdfDownloadLink.textContent = 'Download Product Features PDF';
+                    pdfDownloadLink.download = '';
+                    pdfDownloadContainer.appendChild(pdfDownloadLink);
                 }
-            })
-            .catch(error => {
-                console.error('Error fetching product data:', error);
-                document.querySelector('.product-info').textContent = 'Error fetching product data.';
-            });
-    }
+
+                activateNextThumbnail(thumbnailImages, productImages);
+            } else {
+                document.querySelector('.product-info').textContent = 'Product not found.';
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching product data:', error);
+            document.querySelector('.product-info').textContent = 'Error fetching product data.';
+        });
+}
 
     function setActiveThumbnail(index) {
         const thumbnailImages = document.querySelectorAll('.thumbnail-image');

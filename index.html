@@ -24,6 +24,109 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+    <style>
+      .product-main {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* Fixed height for consistency */
+    position: relative;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Subtle lift effect */
+}
+
+.product-image-container {
+    height: 60%;
+    overflow: hidden;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+}
+
+.product-description {
+    margin: 10px 0;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: none;
+}
+
+.product-category {
+    font-size: 14px;
+    color: #1805f0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.view-details {
+    background-color: #322bfa;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.view-details:hover {
+    background-color: #0056b3;
+}
+
+    </style>
 
 </head>
 
@@ -127,104 +230,104 @@
           <h2>AxcelGuard</h2>
         </a>
   
-        <div class="keyword-slider-container">
+     
+               <nav class="desktop-navigation-menu">
+                <div class="container">
+                  <ul class="desktop-menu-category-list">
+                    <li class="menu-category">
+                      <a href="index.html" class="menu-title">Home</a>
+                    </li>
+                    <li class="menu-category">
+                      <a href="all.html" class="menu-title">Products</a>
+            
+                      <div class="dropdown-panel">
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">
+                            <a href="all.html">Security Systems</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">CCTV Cameras</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Alarm Systems</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Access Control</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Intercoms</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">
+                              <img src="./images/10inch_dashcam/10inch dashcam2.png" alt="Security Systems" width="250" height="119">
+                            </a>
+                          </li>
+                        </ul>
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">
+                            <a href="all.html">Smart Home</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Smart Locks</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Smart Lighting</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Smart Thermostats</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Home Automation</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">
+                              <img src="./images/4inch_dashcam_3ch/4inch dashcam1.png" alt="Smart Home" width="250" height="119">
+                            </a>
+                          </li>
+                        </ul>
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">
+                            <a href="all.html">Network Solutions</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Routers</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Switches</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Access Points</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">Cabling</a>
+                          </li>
+                          <li class="panel-list-item">
+                            <a href="all.html">
+                              <img src="./images/720_2ch_monitor_kit/720 2ch monitor kit.jpg" alt="Network Solutions" width="250" height="119">
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="menu-category">
+                      <a href="#" class="menu-title">Support</a>
+                    </li>
+                    <li class="menu-category">
+                      <a href="#" class="menu-title">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+      </div>
+    </div>
+  
+   
+     <div class="keyword-slider-container">
           <div class="keyword-slider">
             <span class="keyword"></span>
           </div>
         </div>
               
-
-      </div>
-    </div>
-  
-    <nav class="desktop-navigation-menu">
-      <div class="container">
-        <ul class="desktop-menu-category-list">
-          <li class="menu-category">
-            <a href="#" class="menu-title">Home</a>
-          </li>
-          <li class="menu-category">
-            <a href="#" class="menu-title">Products</a>
-  
-            <div class="dropdown-panel">
-              <ul class="dropdown-panel-list">
-                <li class="menu-title">
-                  <a href="#">Security Systems</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">CCTV Cameras</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Alarm Systems</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Access Control</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Intercoms</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/security-systems-banner.jpg" alt="Security Systems" width="250" height="119">
-                  </a>
-                </li>
-              </ul>
-              <ul class="dropdown-panel-list">
-                <li class="menu-title">
-                  <a href="#">Smart Home</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Smart Locks</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Smart Lighting</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Smart Thermostats</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Home Automation</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/smart-home-banner.jpg" alt="Smart Home" width="250" height="119">
-                  </a>
-                </li>
-              </ul>
-              <ul class="dropdown-panel-list">
-                <li class="menu-title">
-                  <a href="#">Network Solutions</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Routers</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Switches</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Access Points</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">Cabling</a>
-                </li>
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/network-solutions-banner.jpg" alt="Network Solutions" width="250" height="119">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-category">
-            <a href="#" class="menu-title">Support</a>
-          </li>
-          <li class="menu-category">
-            <a href="#" class="menu-title">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  
     <div class="mobile-bottom-navigation">
       <button class="action-btn" data-mobile-menu-open-btn>
         <ion-icon name="menu-outline"></ion-icon>
@@ -588,7 +691,7 @@
         
               </div>
          -->
-              <div class="showcase-container">
+              <!-- <div class="showcase-container">
               
                 <div class="showcase">
               
@@ -659,7 +762,7 @@
                 </div>
               
               </div>
-        
+         -->
               <!-- New MDVR Product Section -->
               <div class="showcase-container">
               
@@ -704,7 +807,7 @@
                       <div class="showcase-status-bar"></div>
                     </div>
               
-                    <div class="countdown-box">
+                    <!-- <div class="countdown-box">
                       <p class="countdown-desc">Hurry Up! Offer ends in:</p>
                       <div class="countdown">
                         <div class="countdown-content" id="days">
@@ -724,7 +827,7 @@
                           <p class="display-text">Sec</p>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     
               
                   </div>
@@ -1273,38 +1376,7 @@ function populateCategory(containerId, items) {
     }
 
 
-function updateCountdown() {
-    const endDate = new Date("2024-08-01T00:00:00"); // Set your end date and time here
-    const now = new Date();
-    const timeRemaining = endDate - now;
-
-    if (timeRemaining <= 0) {
-      document.getElementById('days').querySelector('.display-number').innerText = '00';
-      document.getElementById('hours').querySelector('.display-number').innerText = '00';
-      document.getElementById('minutes').querySelector('.display-number').innerText = '00';
-      document.getElementById('seconds').querySelector('.display-number').innerText = '00';
-      return; // Stop updating if the countdown has ended
-    }
-
-    const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-
-    document.getElementById('days').querySelector('.display-number').innerText = days.toString().padStart(2, '0');
-    document.getElementById('hours').querySelector('.display-number').innerText = hours.toString().padStart(2, '0');
-    document.getElementById('minutes').querySelector('.display-number').innerText = minutes.toString().padStart(2, '0');
-    document.getElementById('seconds').querySelector('.display-number').innerText = seconds.toString().padStart(2, '0');
-  }
-
-  // Update the countdown every second
-  setInterval(updateCountdown, 1000);
-
-  // Initial call to set the countdown immediately
-  updateCountdown();
-
-  // Fetch data from data.json file
-  fetch('data.json')
+    fetch('data.json')
   .then(response => response.json())
   .then(data => {
     // Get the product-grid container
@@ -1316,82 +1388,67 @@ function updateCountdown() {
     // Loop through the shuffled data and create product cards
     shuffledData.forEach(product => {
       // Create the product card elements
-      const showcase = document.createElement('div');
-      showcase.classList.add('showcase');
+      const productCard = document.createElement('div');
+      productCard.classList.add('product-card');
 
-      const showcaseBanner = document.createElement('div');
-      showcaseBanner.classList.add('showcase-banner');
+      const imageContainer = document.createElement('div');
+      imageContainer.classList.add('product-image-container');
 
-      const productImgDefault = document.createElement('img');
-      productImgDefault.classList.add('product-img', 'default');
-      productImgDefault.src = product['Product Images1'];
-      productImgDefault.alt = product['Product Name'];
-      productImgDefault.width = 300;
+      const productImg = document.createElement('img');
+      productImg.classList.add('product-img');
+      productImg.src = product['Product Images1'] || 'default-image.jpg'; // Fallback image
+      productImg.alt = product['Product Name'];
 
-      const productImgHover = document.createElement('img');
-      productImgHover.classList.add('product-img', 'hover');
-      productImgHover.src = product['Product Images2'];
-      productImgHover.alt = product['Product Name'];
-      productImgHover.width = 300;
+      imageContainer.appendChild(productImg);
 
-      showcaseBanner.appendChild(productImgDefault);
-      showcaseBanner.appendChild(productImgHover);
+      const productDetails = document.createElement('div');
+      productDetails.classList.add('product-details');
 
-      const showcaseContent = document.createElement('div');
-      showcaseContent.classList.add('showcase-content');
+      const productName = document.createElement('h3');
+      productName.classList.add('product-name');
+      productName.textContent = product['Product Name'];
 
-      const showcaseCategory = document.createElement('a');
-      showcaseCategory.classList.add('showcase-category');
-      showcaseCategory.href = '#';
-      showcaseCategory.textContent = product['Product Folder Name'];
+      const productDescription = document.createElement('p');
+      productDescription.classList.add('product-description');
+      productDescription.textContent = product['Product Specification']['description'] || 'No description available';
 
-      const showcaseTitle = document.createElement('a');
-      showcaseTitle.classList.add('showcase-title');
-      showcaseTitle.href = '#';
-      showcaseTitle.textContent = product['Product Name'];
+      const productCategory = document.createElement('a');
+      productCategory.classList.add('product-category');
+      productCategory.href = '#';
+      productCategory.textContent = product['Product Folder Name'];
 
-      const showcaseRating = document.createElement('div');
-      showcaseRating.classList.add('showcase-rating');
+      // Create the 'View Details' link
+      const viewDetails = document.createElement('a');
+      viewDetails.classList.add('view-details');
+      viewDetails.href = `description.html?productCode=${product['Product Code']}`; // Assuming 'Product Code' is the unique identifier
+      viewDetails.textContent = 'View Details';
 
-      // // Add star icons for the first technical parameter
-      // for (let i = 0; i < product['Product Specification']['technical_parameters']; i++) {
-      //   const starIcon = document.createElement('ion-icon');
-      //   starIcon.name = 'star';
-      //   showcaseRating.appendChild(starIcon);
-      // }
+      // Attach click event to the product image and name to redirect to details page
+      imageContainer.addEventListener('click', () => {
+        window.location.href = `description.html?productCode=${product['Product Code']}`;
+      });
 
-      const priceBox = document.createElement('div');
-      priceBox.classList.add('price-box');
+      productName.addEventListener('click', () => {
+        window.location.href = `description.html?productCode=${product['Product Code']}`;
+      });
 
-      const price = document.createElement('p');
-      price.classList.add('price');
-      price.textContent = `Weight: ${product['Weight in Kg']} kg`;
+      productDetails.appendChild(productCategory);
+      productDetails.appendChild(productName);
+      productDetails.appendChild(productDescription);
+      productDetails.appendChild(viewDetails);
 
-      // const basicFeature = document.createElement('p');
-      // basicFeature.textContent = `Basic Feature: ${product['Product Specification']}`;
-
-      // const technicalFeature = document.createElement('p');
-      // technicalFeature.textContent = `Technical Feature: ${product['Product Specification']['technical_parameters'][0]}`;
-
-      priceBox.appendChild(price);
-      // priceBox.appendChild(basicFeature);
-      // priceBox.appendChild(technicalFeature);
-
-      showcaseContent.appendChild(showcaseCategory);
-      showcaseContent.appendChild(showcaseTitle);
-      showcaseContent.appendChild(showcaseRating);
-      showcaseContent.appendChild(priceBox);
-
-      showcase.appendChild(showcaseBanner);
-      showcase.appendChild(showcaseContent);
+      productCard.appendChild(imageContainer);
+      productCard.appendChild(productDetails);
 
       // Append the product card to the product-grid container
-      productGrid.appendChild(showcase);
+      productGrid.appendChild(productCard);
     });
   })
   .catch(error => {
     console.error('Error fetching data:', error);
   });
+
+
 
   document.addEventListener('DOMContentLoaded', () => {
     const keywords = [

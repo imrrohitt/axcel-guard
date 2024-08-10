@@ -1,0 +1,3428 @@
+[
+    {
+      "S.No": 1,
+      "Product Name": "4ch 1080p SD Card MDVR (MR9504EC)",
+      "Product Code": "AXG01",
+      "Weight in Kg": 1,
+      "Product Folder Name": "Basic MDVR",
+      "Product Images1": "/images/BasicMDVR/Basic MDVR.jpg",
+      "Product DataSheet": "images/pdfs/Basic, 4CH SD 1080P Mobile DVR MR9504EC.pdf",
+      "Product Images2": "/images/BasicMDVR/Basic MDVR1.jpg",
+      "Product Images3": "/images/BasicMDVR/Basic MDVR2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"MDVR",
+      "Product Specification": {
+        "description": "The 4CH SD 1080P Mobile DVR MR9504EC is a robust vehicle surveillance system featuring high-performance SigmaStar image chipsets and H.265/H.264 encoding for superior video quality and compression. This DVR supports 4CH 1080P live preview and recording, with 1CH AV and VGA outputs. It includes advanced features such as image mirroring, rotation adjustments, and GPS drift suppression. The device operates on a wide voltage range (9-36V DC) and is protected against low voltage, short circuits, and reverse connections. Data is securely stored on SD cards (up to 512GB) with encryption and built-in super capacitor protection to prevent data loss. It runs on Embedded Linux OS with multi-language support and provides flexible recording and playback options.",
+         "SpecializationPoints": [
+          {
+            "feature": "Image Chipset",
+            "description": "High-performance SigmaStar image chipsets for enhanced video processing."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "Utilizes H.265/H.264 encoding for efficient compression and high-quality images."
+          },
+          {
+            "feature": "Channels",
+            "description": "Supports 4CH 1080P live preview and recording with 1CH AV and 1CH VGA outputs."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Operates on a wide voltage range (9-36V DC) with protection against voltage issues and intelligent power management."
+          },
+          {
+            "feature": "Data Storage",
+            "description": "Supports SD cards up to 512GB with encryption and super capacitor to prevent data loss."
+          },
+          {
+            "feature": "Adjustments",
+            "description": "Features image horizontal and vertical mirror adjustment and 90-degree rotation."
+          },
+          {
+            "feature": "GPS",
+            "description": "Supports GPS/BD with high sensitivity and fast positioning."
+          },
+          {
+            "feature": "Operating System",
+            "description": "Runs on Embedded Linux OS with support for multiple languages (Chinese/English/Russian)."
+          },
+          {
+            "feature": "Audio/Video",
+            "description": "Provides synchronized audio/video recording with flexible combination and playback modes."
+          },
+          {
+            "feature": "Temperature Range",
+            "description": "Functional in temperatures ranging from -20°C to 70°C."
+          }
+         ]
+        }
+    },
+    {
+      "S.No": 2,
+      "Product Name": "4ch 1080p HDD MDVR (MR9704C)",
+      "Product Code": "AXG02",
+      "Weight in Kg": 2,
+      "Product Folder Name": "Basic HDD MDVR",
+      "Product DataSheet": "images/pdfs/Basic, 4CH SD 1080P Mobile DVR MR9504EC.pdf",
+      "Product Images1": "/images/BasicHDDMDVR/Basic HDD MDVR1.jpg",
+      "Product Images2": "/images/BasicHDDMDVR/Basic HDD MDVR2.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "Product Specification": {
+        "description": "The Five in One 4CH SD Mobile DVR (MR9504E) is a versatile vehicle surveillance solution with advanced H.264/H.265 video compression for excellent image quality and storage efficiency. It supports AHD/TVI/CVI/IPC/Analog video inputs and offers 4+1 live preview capabilities. The DVR features built-in G-sensor, reverse assistance, and allows for horizontal, vertical, and 90-degree camera adjustments. It operates on a wide voltage range (8-36V DC) and includes robust data protection with a super capacitor. With options for GPS, 3G/4G, and WiFi connectivity, this DVR is ideal for comprehensive vehicle monitoring.",
+          "SpecializationPoints": [
+            {
+              "feature": "Ultra-Wide-Angle Lens",
+              "description": "170-degree ultra-wide-angle lens for comprehensive coverage."
+            },
+            {
+              "feature": "Touch Screen",
+              "description": "4-inch high-definition touch screen for easy operation and settings adjustment."
+            },
+            {
+              "feature": "Video Resolution",
+              "description": "Supports up to 1080P video resolution for clear recording."
+            },
+            {
+              "feature": "Circular Recording",
+              "description": "Circular recording with no missing seconds and automatic start/stop."
+            },
+            {
+              "feature": "USB Interface and TF Card Slot",
+              "description": "Includes USB data interface and TF card slot (up to 32GB)."
+            },
+            {
+              "feature": "Rear-View Camera Compatibility",
+              "description": "Compatible with rear-view camera for additional perspective."
+            },
+            {
+              "feature": "Charging Options",
+              "description": "Charges via power adapter, PC-USB, or on-board power supply."
+            },
+            {
+              "feature": "Motion Detection",
+              "description": "Automatically records when motion is detected, enhancing security."
+            },
+            {
+              "feature": "Vibration Detection",
+              "description": "Activates recording when vehicle vibration is detected."
+            },
+            {
+              "feature": "Low-Light Video Quality",
+              "description": "Enhances video quality in low-light conditions with infrared supplementary lamp."
+            },
+            {
+              "feature": "Video Input",
+              "description": "Supports AHD/TVI/CVI/IPC/Analog with 4CH."
+            },
+            {
+              "feature": "Video Compression",
+              "description": "H.264/H.265 for high-quality compression."
+            },
+            {
+              "feature": "Power Supply",
+              "description": "8-36V DC with multiple protection circuits."
+            },
+            {
+              "feature": "Data Storage",
+              "description": "Up to 512GB SD card storage."
+            },
+            {
+              "feature": "Transmission",
+              "description": "GPS/BD/GLONASS, optional 3G/4G, and WiFi support."
+            },
+            {
+              "feature": "Live Preview",
+              "description": "4+1 preview and storage capability."
+            },
+            {
+              "feature": "Video Output",
+              "description": "1CH AV and 1CH VGA output."
+            },
+            {
+              "feature": "Built-in G-sensor",
+              "description": "Monitors driving behavior and reverse assistance."
+            },
+            {
+              "feature": "Power Management",
+              "description": "Smart system with low power consumption."
+            },
+            {
+              "feature": "Data Protection",
+              "description": "Super capacitor and encryption for data security."
+            }
+          ]
+        
+        }
+    },
+    {
+      "S.No": 3,
+      "Product Name": "4ch 1080p SD, 4G, GPS MDVR (MR9504E)",
+      "Product Code": "AXG03",
+      "Weight in Kg": 1,
+      "Product Folder Name": "SD card MDVR",
+      "Product Images1": "/images/SDcardMDVR/SD card 5ch MDVR.jpg",
+      "Product DataSheet": "/images/pdfs/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E).pdf",
+      "Product Images2": "/images/SDcardMDVR/SD card 5ch MDVR1.jpg",
+      "Product Images3": "/images/SDcardMDVR/SD card 5ch MDVR2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Five-in-One 4CH 1080P H.265 HDD Mobile DVR MR9704E is a versatile and high-performance device designed for advanced vehicle surveillance. Featuring highperformance chipsets and H.265 encoding for superior image quality and compression, this DVR supports multiple video inputs including AHD, TVI, CVI, IPC, and Analog. It offers 4+1 live preview and recording, with options for synchronized AV and VGA outputs. The DVR includes a built-in Gsensor for monitoring driving habits and supports reverse assistance. Power protection features, smart power management, and data encryption ensure reliability and durability. It supports up to 4TB HDD/SSD and 512GB SD card storage.",
+         "SpecializationPoints": [
+          {
+            "feature": "Chipset",
+            "description": "High-performance chipsets with H.265 encoding for excellent image quality and compression."
+          },
+          {
+            "feature": "Video Inputs",
+            "description": "Supports AHD, TVI, CVI, IPC, and Analog video inputs for wide compatibility."
+          },
+          {
+            "feature": "Live Preview and Storage",
+            "description": "4+1 channels for live preview and storage with synchronized AV and VGA outputs."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Wide voltage range of 8-36V DC with multiple protection circuits and smart power management."
+          },
+          {
+            "feature": "Data Storage",
+            "description": "Supports up to 4TB HDD/SSD and 512GB SD card with built-in super capacitor for data protection."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor for monitoring and analyzing driving habits."
+          },
+          {
+            "feature": "Reverse Assistance",
+            "description": "Enhanced reverse assistance feature for safer maneuvering."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "Advanced H.265 compression for efficient storage and high video quality."
+          },
+          {
+            "feature": "Remote Upgrade",
+            "description": "Firmware upgrading options via USB, SD card, wireless network, or emergency recovery."
+          },
+          {
+            "feature": "Temperature Range",
+            "description": "Operates effectively in temperatures ranging from -20°C to 70°C."
+          }
+         ]
+        }
+    },
+    {
+      "S.No": 4,
+      "Product Name": "4ch 1080p HDD, 4G, GPS MDVR (MR9704E)",
+      "Product Code": "AXG04",
+      "Weight in Kg": 2,
+      "Product Folder Name": "HDD MDVR",
+      "Product Images1": "/images/HDDMDVR/HDD 5ch MDVR.jpg",
+      "Product DataSheet": "/images/pdfs/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E).pdf",
+      "Product Images2": "/images/HDDMDVR/HDD MDVR1.jpg",
+      "Product Images3": "/images/HDDMDVR/HDD MDVR2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "MDVR",
+      "Product Specification": {
+        "description": "The 4CH 1080P H265 HDD Mobile DVR (MR9704E) is a highperformance surveillance device designed for commercial vehicles. It features H.265 video compression for superior image quality and efficient storage. The DVR supports multiple video inputs (AHD/TVI/CVI/IPC/Analog) and offers 4+1 live preview capability. It includes a built-in G-sensor, reverse assistance, and optional hard disk auto-heating. With a wide voltage range (8-36V DC) and robust data protection, it supports up to 4TB HDD/SSD and 512GB SD card storage. Optional wireless modules provide GPS, 3G/4G, and WiFi connectivity.",
+        "SpecializationPoints": [
+          {
+            "feature": "Ultra-Wide-Angle Lens",
+            "description": "170-degree ultra-wide-angle lens for comprehensive coverage."
+          },
+          {
+            "feature": "Touch Screen",
+            "description": "4-inch high-definition touch screen for easy operation and settings adjustment."
+          },
+          {
+            "feature": "Video Resolution",
+            "description": "Supports up to 1080P video resolution for clear recording."
+          },
+          {
+            "feature": "Circular Recording",
+            "description": "Circular recording with no missing seconds and automatic start/stop."
+          },
+          {
+            "feature": "USB Interface and TF Card Slot",
+            "description": "Includes USB data interface and TF card slot (up to 32GB)."
+          },
+          {
+            "feature": "Rear-View Camera Compatibility",
+            "description": "Compatible with rear-view camera for additional perspective."
+          },
+          {
+            "feature": "Charging Options",
+            "description": "Charges via power adapter, PC-USB, or on-board power supply."
+          },
+          {
+            "feature": "Motion Detection",
+            "description": "Automatically records when motion is detected, enhancing security."
+          },
+          {
+            "feature": "Vibration Detection",
+            "description": "Activates recording when vehicle vibration is detected."
+          },
+          {
+            "feature": "Low-Light Video Quality",
+            "description": "Enhances video quality in low-light conditions with infrared supplementary lamp."
+          },
+          {
+            "feature": "Video Input",
+            "description": "Supports AHD/TVI/CVI/IPC/Analog with 4CH."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "H.264/H.265 for high-quality compression."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "8-36V DC with multiple protection circuits."
+          },
+          {
+            "feature": "Data Storage",
+            "description": "Up to 512GB SD card storage."
+          },
+          {
+            "feature": "Transmission",
+            "description": "GPS/BD/GLONASS, optional 3G/4G, and WiFi support."
+          },
+          {
+            "feature": "Live Preview",
+            "description": "4+1 preview and storage capability."
+          },
+          {
+            "feature": "Video Output",
+            "description": "1CH AV and 1CH VGA output."
+          },
+          {
+            "feature": "Built-in G-sensor",
+            "description": "Monitors driving behavior and reverse assistance."
+          },
+          {
+            "feature": "Power Management",
+            "description": "Smart system with low power consumption."
+          },
+          {
+            "feature": "Data Protection",
+            "description": "Super capacitor and encryption for data security."
+          }
+        ]
+        }
+    },
+    {
+      "S.No": 5,
+      "Product Name": "4ch 1080p SD, 4G, wifi, GPS MDVR (MA9504ED)",
+      "Product Code": "AXG58",
+      "Weight in Kg": 1,
+      "Product Folder Name": "SD card MDVR",
+      "Product DataSheet": "/images/pdfs/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf",
+      "Product Images1": "/images/SDcardMDVR/SD card 5ch MDVR.jpg",
+      "Product Images2": "/images/SDcardMDVR/SD card 5ch MDVR1.jpg",
+      "Product Images3": "/images/SDcardMDVR/SD card 5ch MDVR2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "MDVR",
+      "Product Specification": {
+        "description": "The 4ch 1080p SD, 4G, wifi, GPS MDVR (MA9504ED)offers advanced surveillance for vehicles with H.265 video encoding for high image quality and efficient storage. It supports multiple video inputs including AHD/TVI/CVI/IPC/Analog, and provides real-time live preview. The DVR features a built-in G-sensor, reverse assistance, and optional hard disk auto-heating. With a wide voltage range (8-36V DC), robust data protection, and extensive storage options (up to 4TB HDD/SSD and 512GB SD card), it ensures reliable operation in various conditions. Optional wireless modules support GPS, 3G/4G, and WiFi connectivity.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Input",
+            "description": "Supports AHD/TVI/CVI/IPC/Analog with 4CH 1080P video input."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "H.265 video compression for high quality and efficient storage."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Power supply range of 8-36V DC with multiple protection circuits."
+          },
+          {
+            "feature": "Data Storage",
+            "description": "Supports up to 4TB HDD/SSD and 512GB SD card for storage."
+          },
+          {
+            "feature": "Transmission Interfaces",
+            "description": "Optional transmission interfaces include GPS/BD/GLONASS, 3G/4G, and WiFi."
+          },
+          {
+            "feature": "Live Preview",
+            "description": "Provides 4+1 live preview and storage capability."
+          },
+          {
+            "feature": "Video Output",
+            "description": "Includes 1CH synchronized AV output and 1CH VGA output."
+          },
+          {
+            "feature": "Built-in G-sensor",
+            "description": "Features a built-in G-sensor for monitoring driving behavior and reverse assistance."
+          },
+          {
+            "feature": "Power Management",
+            "description": "Smart power management with low power consumption and automatic shutdown."
+          },
+          {
+            "feature": "Data Protection",
+            "description": "Built-in super capacitor and encryption for robust data protection."
+          }
+        ]
+        }
+    },
+    {
+      "S.No": 6,
+      "Product Name": "TVS 4ch 1080p SD, 4G, GPS MDVR",
+      "Product Code": "TVS43",
+      "Weight in Kg": 1,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://tefco.ai/cdn/shop/files/image_6c8b746d-aa5e-452c-a307-50161f356285.jpg?crop=center&height=2048&v=1682747968&width=1920",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"MDVR",
+      "Product Specification": {
+        "description": "The TVS 4CH 1080P SD, 4G, GPS MDVR is a high-performance mobile DVR system designed for advanced vehicle surveillance. It features high-definition recording, multiple video inputs, and robust connectivity options, including GPS tracking and 4G support for real-time access and monitoring.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Resolution",
+            "description": "1080p Full HD recording for clear and detailed video."
+          },
+          {
+            "feature": "Channels",
+            "description": "4 channels for video input, compatible with various camera types."
+          },
+          {
+            "feature": "Storage Capacity",
+            "description": "Supports up to 512GB SD card for extensive storage needs."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "Advanced H.264 or H.265 compression for efficient storage."
+          },
+          {
+            "feature": "GPS Tracking",
+            "description": "Built-in GPS for real-time location tracking and monitoring."
+          },
+          {
+            "feature": "4G Connectivity",
+            "description": "Supports 4G LTE for remote access and live video streaming."
+          },
+          {
+            "feature": "Video Inputs",
+            "description": "Supports AHD, TVI, CVI, IPC, and Analog video inputs for versatile recording options."
+          },
+          {
+            "feature": "Audio Input",
+            "description": "Supports audio input (if applicable)."
+          },
+          {
+            "feature": "Recording Modes",
+            "description": "Includes continuous, scheduled, and event-triggered recording modes."
+          },
+          {
+            "feature": "Playback",
+            "description": "Local playback via SD card and remote playback via 4G network."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Wide voltage range (e.g., 8-36V DC) with built-in power protection."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Functional within a temperature range of -20°C to 70°C."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor for detecting and recording sudden movements or impacts."
+          },
+          {
+            "feature": "Video Output",
+            "description": "Supports AV and VGA outputs for video display."
+          },
+          {
+            "feature": "Dimensions",
+            "description": "Dimensions vary by model."
+          },
+          {
+            "feature": "Weight",
+            "description": "Weight varies by model."
+          },
+          {
+            "feature": "Special Features",
+            "description": "Includes real-time video monitoring, remote configuration and updates, audio recording (if applicable), and tamper detection."
+          }
+        ]
+      }
+    },
+    {
+      "S.No": 7,
+      "Product Name": "5ch MDVR SD 4g + GPS + LAN + RS232 + RS485",
+      "Product Code": "AXG46",
+      "Weight in Kg": 1,
+      "Product Folder Name": "SD card MDVR",
+      "Product DataSheet": "/images/pdfs/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf",
+      "Product Images1": "/images/SDcardMDVR/SD card 5ch MDVR.jpg",
+      "Product Images2": "/images/SDcardMDVR/SD card 5ch MDVR1.jpg",
+      "Product Images3": "/images/SDcardMDVR/SD card 5ch MDVR2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "MDVR",
+      "Product Specification": {
+        "description": "The 5ch MDVR SD 4G + GPS + LAN + RS232 + RS485 is an advanced mobile DVR system designed for comprehensive vehicle surveillance. It supports five video channels with high-definition recording and includes multiple connectivity options, including 4G for remote access, GPS for location tracking, and various data interfaces for integration with other systems.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Channels",
+            "description": "Supports 5 video channels for simultaneous recording from multiple cameras."
+          },
+          {
+            "feature": "Storage Capacity",
+            "description": "Compatible with SD cards for data storage, capacity varies by model."
+          },
+          {
+            "feature": "Video Resolution",
+            "description": "High-definition recording for clear and detailed video footage."
+          },
+          {
+            "feature": "4G Connectivity",
+            "description": "Provides 4G LTE support for remote access and live streaming of video feeds."
+          },
+          {
+            "feature": "GPS Tracking",
+            "description": "Integrated GPS for real-time location tracking and route monitoring."
+          },
+          {
+            "feature": "LAN Interface",
+            "description": "LAN interface for network connectivity and remote access."
+          },
+          {
+            "feature": "RS232 Interface",
+            "description": "RS232 interface for serial data communication and integration with external devices."
+          },
+          {
+            "feature": "RS485 Interface",
+            "description": "RS485 interface for robust serial communication, suitable for various peripherals."
+          },
+          {
+            "feature": "Audio Input",
+            "description": "Supports audio input for capturing and recording sound (if applicable)."
+          },
+          {
+            "feature": "Recording Modes",
+            "description": "Includes continuous, scheduled, and event-triggered recording options."
+          },
+          {
+            "feature": "Playback",
+            "description": "Local playback via SD card and remote playback through 4G network."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Wide voltage range (e.g., 8-36V DC) with built-in protection features."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Operational in temperatures ranging from -20°C to 70°C."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor for detecting and recording sudden movements or impacts."
+          },
+          {
+            "feature": "Video Output",
+            "description": "Supports video outputs for connecting to external monitors (AV, VGA)."
+          },
+          {
+            "feature": "Dimensions",
+            "description": "Dimensions vary by model."
+          },
+          {
+            "feature": "Weight",
+            "description": "Weight varies by model."
+          },
+          {
+            "feature": "Special Features",
+            "description": "Includes real-time monitoring, remote configuration, and tamper detection."
+          }
+        ]
+      }
+    },
+    {
+      "S.No": 8,
+      "Product Name": "5ch MDVR HDD 4g + GPS + LAN + RS232 + RS485",
+      "Product Code": "AXG47",
+      "Weight in Kg": 2.2,
+      "Product DataSheet": "/images/pdfs/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf",
+      "Product Folder Name": "HDD MDVR",
+      "Product Images1": "/images/SDcardMDVR/SD card 5ch MDVR.jpg",
+      "Product Images2": "/images/SDcardMDVR/SD card 5ch MDVR1.jpg",
+      "Product Images3": "/images/SDcardMDVR/SD card 5ch MDVR2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "MDVR",
+      "Product Specification": {
+        "description": "The 5ch MDVR HDD 4G + GPS + LAN + RS232 + RS485 is a high-capacity mobile DVR system designed for advanced vehicle surveillance. It features five video channels with HDD storage for large data capacity, integrated 4G for remote access, GPS for location tracking, and various data interfaces for flexible integration.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Channels",
+            "description": "Supports 5 video channels for simultaneous recording from multiple cameras."
+          },
+          {
+            "feature": "Storage Capacity",
+            "description": "HDD storage for extensive data capacity, supports up to 4TB HDD."
+          },
+          {
+            "feature": "Video Resolution",
+            "description": "High-definition recording for clear and detailed video footage."
+          },
+          {
+            "feature": "4G Connectivity",
+            "description": "Provides 4G LTE support for remote access and live streaming of video feeds."
+          },
+          {
+            "feature": "GPS Tracking",
+            "description": "Integrated GPS for real-time location tracking and route monitoring."
+          },
+          {
+            "feature": "LAN Interface",
+            "description": "LAN interface for network connectivity and remote access."
+          },
+          {
+            "feature": "RS232 Interface",
+            "description": "RS232 interface for serial data communication and integration with external devices."
+          },
+          {
+            "feature": "RS485 Interface",
+            "description": "RS485 interface for robust serial communication, suitable for various peripherals."
+          },
+          {
+            "feature": "Audio Input",
+            "description": "Supports audio input for capturing and recording sound (if applicable)."
+          },
+          {
+            "feature": "Recording Modes",
+            "description": "Includes continuous, scheduled, and event-triggered recording options."
+          },
+          {
+            "feature": "Playback",
+            "description": "Local playback via HDD and remote playback through 4G network."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Wide voltage range (e.g., 8-36V DC) with built-in protection features."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Operational in temperatures ranging from -20°C to 70°C."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor for detecting and recording sudden movements or impacts."
+          },
+          {
+            "feature": "Video Output",
+            "description": "Supports video outputs for connecting to external monitors (AV, VGA)."
+          },
+          {
+            "feature": "Dimensions",
+            "description": "Dimensions vary by model."
+          },
+          {
+            "feature": "Weight",
+            "description": "Weight varies by model."
+          },
+          {
+            "feature": "Special Features",
+            "description": "Includes real-time monitoring, remote configuration, and tamper detection."
+          }
+        ]
+      }
+    },
+    {
+      "S.No": 9,
+      "Product Name": "8ch HDD 4g+GPS MDVR (MR9708C)",
+      "Product Code": "8ch HDD",
+      "Weight in Kg": 3,
+      "Product DataSheet": "https://drive.google.com/file/d/1s3BoK1UMAlmNfnpnw5jPUY22zM3Akde4/view?usp=drive_link",
+      "Product Folder Name": "8ch MDVR HDD",
+      "Product Images1": "/images/8ch_mdvr_hdd/8ch MDVR HDD1.jpg",
+      "Product Images2": "/images/8ch_mdvr_hdd/8ch MDVR HDD.jpg",
+      "Product Images3": "/images/8ch_mdvr_hdd/8ch MDVR HDD2.jpg",
+      "Product Images4": "/images/8ch_mdvr_hdd/8ch MDVR HDD3.jpg",
+      "Product Images5": "/images/8ch_mdvr_hdd/8ch MDVR HDD4.jpg",
+      "category": "MDVR",
+      "Product Specification": {
+        "description": "The 8ch HDD 4G + GPS MDVR (MR9708C) is a high-performance mobile DVR system designed for extensive vehicle surveillance. It supports eight video channels, features HDD storage for large capacity, and includes 4G connectivity and GPS for enhanced monitoring and access.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Channels",
+            "description": "Supports 8 video channels for simultaneous recording from multiple cameras."
+          },
+          {
+            "feature": "Storage Capacity",
+            "description": "HDD storage with large capacity, supports up to 4TB HDD."
+          },
+          {
+            "feature": "4G Connectivity",
+            "description": "4G LTE support for remote access and live video streaming."
+          },
+          {
+            "feature": "GPS Tracking",
+            "description": "Built-in GPS for real-time location tracking and route monitoring."
+          },
+          {
+            "feature": "Video Resolution",
+            "description": "High-definition recording for detailed and clear video footage."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Operational in temperatures ranging from -20°C to 70°C."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Integrated G-sensor for detecting and recording sudden movements or impacts."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 10,
+      "S.No": 10,
+      "Product Name": "AI MDVR with (DSM + ADAS) (SD+ 4g + GPS)",
+      "Product Code": "AXG38",
+      "Weight in Kg": 2,
+      "Product DataSheet": "/images/pdfs/4CH SD  AI MDVR (MR9504ED).pdf",
+      "Product Folder Name": "AI MDVR",
+      "Product Images1": "/images/AI_mdvr/AI mdvr.jpg",
+      "Product Images2": "/images/AI_mdvr/Al mdvr 2.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"MDVR",
+      "Product Specification": {
+        "description": "The 4CH SD AI MDVR (MR9504ED) is a sophisticated surveillance solution for commercial vehicles, featuring integrated ADAS, DSM, and BSD systems. It utilizes H.265 video encoding for superior image quality and efficient storage. The device includes a built-in G-sensor for monitoring driving behavior and supports multiple video inputs. It offers a wide voltage power supply, advanced data protection, and optional wireless modules for GPS, 4G, and WiFi. The system enhances driving safety with real-time alerts and supports various storage options.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Input",
+            "description": "Supports 4CH 1080P/720P AHD, AHD/TVI/CVI/IPC/Analog video inputs."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "H.265 video compression for high quality and storage efficiency."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Power supply range of 8-36V DC with protection features."
+          },
+          {
+            "feature": "Data Storage",
+            "description": "Supports SD cards up to 2x512GB and built-in super capacitor."
+          },
+          {
+            "feature": "Transmission Interfaces",
+            "description": "Includes GPS/BD/GLONASS, 4G LTE, and optional WiFi module."
+          },
+          {
+            "feature": "Safety Systems",
+            "description": "Integrated ADAS, DSM, and BSD systems for safety."
+          },
+          {
+            "feature": "Video Output",
+            "description": "Video output options include VGA and CVBS."
+          },
+          {
+            "feature": "Audio Input",
+            "description": "Supports 4CH audio input."
+          },
+          {
+            "feature": "Data Encryption",
+            "description": "Uses proprietary file system with data encryption."
+          },
+          {
+            "feature": "Safety Warnings",
+            "description": "Provides comprehensive active safety warnings."
+          }
+        ]
+        }  
+    },
+    {
+      "S.No": 11,
+      "Product Name": "AI MDVR with (DSM + ADAS) (SD+HDD+ 4g + GPS)",
+      "Product Code": "AXG72",
+      "Weight in Kg": 3,
+      "Product DataSheet": "/images/pdfs/4CH HDD Commercial Vehicle AIMDVR (MA9704E).pdf",
+      "Product Folder Name": "AI MDVR",
+      "Product Images1": "/images/AI_mdvr/AI mdvr.jpg",
+      "Product Images2": "/images/AI_mdvr/Al mdvr 2.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"MDVR",
+      "Product Specification": {
+        "description": "An advanced surveillance system designed for commercial vehicles. It integrates ADAS, DSM, and BSD technologies, providing comprehensive driver assistance and monitoring. The device supports H.265 video encoding for highquality image capture and efficient storage. It features a built-in G-sensor for vehicle behavior monitoring and supports multiple video input formats. With robust data protection, a wide voltage range power supply, and active safety warnings, the MA9704E ensures reliable and secure operation in various conditions.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Input",
+            "description": "Supports 4CH 1080P/720P AHD/TVI/CVI/IPC/Analog."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "H.265 for high compression ratio and quality."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "9-36V DC with low voltage, short circuit, reverse connection protection."
+          },
+          {
+            "feature": "Storage",
+            "description": "Supports HDD and SD cards up to 512GB."
+          },
+          {
+            "feature": "Wireless Module",
+            "description": "Built-in GPS/BD/GLONASS and 4G LTE module."
+          },
+          {
+            "feature": "Active Safety",
+            "description": "ADAS, DSM, and BSD systems for enhanced driver safety."
+          }
+        ]
+        }
+    },
+    {
+      "S.No": 12,
+      "Product Name": "7\" AV Monitor",
+      "Product Code": "AXG05",
+      "Weight in Kg": 1,
+      "Product DataSheet": "",
+      "Product Folder Name": "7inch VGA monitor",
+      "Product Images1": "/images/7inch_vga/7inch VGA.jpg",
+      "Product Images2": "/images/7inch_vga/7inch VGA1.jpg",
+      "Product Images3": "/images/7inch_vga/7inch VGA2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "monitor",
+      "Product Specification":{
+        "description": "The 7-Inch VGA Monitor is a high-quality display designed for versatility and performance. Featuring a 7-inch TFT-LCD screen with a 16:09 aspect ratio and a resolution of 800x480, this monitor provides clear and vibrant visuals. With a brightness of 350cd/m² and a contrast ratio of 400:1, it ensures excellent image clarity. The monitor supports both CVBS and VGA video inputs and offers adjustable settings for brightness, contrast, and chroma. It operates within a wide temperature range and has a low power consumption of less than 6W. Ideal for various applications, it includes multiple language options for the OSD.",
+        "SpecializationPoints": [
+          {
+            "feature": "Screen Size",
+            "description": "7 inches TFT-LCD for clear, vibrant display."
+          },
+          {
+            "feature": "Screen Ratio",
+            "description": "16:09 for widescreen viewing."
+          },
+          {
+            "feature": "Display Resolution",
+            "description": "800x480 for detailed images."
+          },
+          {
+            "feature": "Contrast Ratio",
+            "description": "400:1 for enhanced image clarity."
+          },
+          {
+            "feature": "Brightness",
+            "description": "350cd/m² for bright, clear visuals."
+          },
+          {
+            "feature": "View Angle",
+            "description": "U:70°, D:45°, L/R:70° for wide-angle viewing."
+          },
+          {
+            "feature": "Color System",
+            "description": "PAL/NTSC with automatic identification."
+          },
+          {
+            "feature": "Video Input",
+            "description": "Supports CVBS and VGA inputs."
+          },
+          {
+            "feature": "Adjustable Settings",
+            "description": "Brightness, contrast, and chroma adjustment."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Operates from -30°C to 70°C for reliable performance in extreme conditions."
+          }
+          ] 
+        }
+    },
+    {
+      "S.No": 13,
+      "Product Name": "7\" VGA Monitor",
+      "Product Code": "AXG06",
+      "Weight in Kg": 1,
+      "Product DataSheet": "",
+      "Product Folder Name": "7inch VGA monitor",
+      "Product Images1": "/images/7inch_vga/7inch VGA1.jpg",
+      "Product Images2": "/images/7inch_vga/7inch VGA.jpg",
+      "Product Images3": "/images/7inch_vga/7inch VGA2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "monitor",
+      "Product Specification":{
+        "description": "The 7-Inch VGA Monitor is a high-quality display designed for versatility and performance. Featuring a 7-inch TFT-LCD screen with a 16:09 aspect ratio and a resolution of 800x480, this monitor provides clear and vibrant visuals. With a brightness of 350cd/m² and a contrast ratio of 400:1, it ensures excellent image clarity. The monitor supports both CVBS and VGA video inputs and offers adjustable settings for brightness, contrast, and chroma. It operates within a wide temperature range and has a low power consumption of less than 6W. Ideal for various applications, it includes multiple language options for the OSD.",
+        "SpecializationPoints": [
+          {
+            "feature": "Screen Size",
+            "description": "7 inches TFT-LCD for clear, vibrant display."
+          },
+          {
+            "feature": "Screen Ratio",
+            "description": "16:09 for widescreen viewing."
+          },
+          {
+            "feature": "Display Resolution",
+            "description": "800x480 for detailed images."
+          },
+          {
+            "feature": "Contrast Ratio",
+            "description": "400:1 for enhanced image clarity."
+          },
+          {
+            "feature": "Brightness",
+            "description": "350cd/m² for bright, clear visuals."
+          },
+          {
+            "feature": "View Angle",
+            "description": "U:70°, D:45°, L/R:70° for wide-angle viewing."
+          },
+          {
+            "feature": "Color System",
+            "description": "PAL/NTSC with automatic identification."
+          },
+          {
+            "feature": "Video Input",
+            "description": "Supports CVBS and VGA inputs."
+          },
+          {
+            "feature": "Adjustable Settings",
+            "description": "Brightness, contrast, and chroma adjustment."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Operates from -30°C to 70°C for reliable performance in extreme conditions."
+          }
+          ] 
+        }
+    },
+    {
+      "S.No": 14,
+      "Product Name": "7\" HDMI Monitor",
+      "Product Code": "HDMI Monitor",
+      "Weight in Kg": 1,
+      "Product DataSheet": "",
+      "Product Folder Name": "7inch VGA monitor",
+      "Product Images1": "/images/7inch_vga/7inch VGA2.jpg",
+      "Product Images2": "/images/7inch_vga/7inch VGA.jpg",
+      "Product Images3": "/images/7inch_vga/7inch VGA1.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "monitor",
+    "Product Specification": {
+      "description": "The 7\" HDMI Monitor is a compact, high-resolution display designed for a variety of applications. With HDMI input, it provides clear and vibrant visuals, making it suitable for use in vehicle monitoring, security systems, and portable displays.",
+      "SpecializationPoints": [
+        {
+          "feature": "Screen Size",
+          "description": "7 inches diagonal for a compact and portable display."
+        },
+        {
+          "feature": "Resolution",
+          "description": "High-resolution display for clear and detailed images."
+        },
+        {
+          "feature": "HDMI Input",
+          "description": "HDMI input for easy connection with a wide range of devices."
+        },
+        {
+          "feature": "Brightness",
+          "description": "High brightness level for visibility in various lighting conditions."
+        },
+        {
+          "feature": "Viewing Angle",
+          "description": "Wide viewing angle for optimal visibility from different positions."
+        },
+        {
+          "feature": "Power Supply",
+          "description": "Compatible with standard DC power supplies, typically 12V DC."
+        },
+        {
+          "feature": "Mounting Options",
+          "description": "Includes options for mounting or stand placement."
+        }
+      ]
+    }
+    },
+    {
+      "S.No": 15,
+      "Product Name": "7inch Heavy Duty VGA Monitor",
+      "Product Code": "AXG56",
+      "Weight in Kg": 1,
+      "Product DataSheet": "/images/pdfs/7inch Heavy Duty VGA Monitor .pdf",
+      "Product Folder Name": "7inch Heavy duty monitor",
+      "Product Images1": "/images/Heavy_duty/Heavy_duty_camera.jpg",
+      "Product Images2": "/images/Heavy_duty/Heavy_duty_camera1.jpg",
+      "Product Images3": "/images/Heavy_duty/Heavy_duty_camera2.jpg",
+      "Product Images4": "/images/Heavy_duty/Heavy_duty_camera3.jpg",
+      "Product Images5": "",
+      "category": "monitor",
+      "Product Specification": {
+        "description": "The 7\" Heavy Duty VGA Monitor is designed for rugged and demanding environments. Featuring VGA input, it offers reliable performance and durability for applications such as industrial control, vehicle monitoring, and outdoor settings.",
+        "SpecializationPoints": [
+          {
+            "feature": "Screen Size",
+            "description": "7 inches diagonal for a compact yet versatile display."
+          },
+          {
+            "feature": "Resolution",
+            "description": "High resolution for clear and sharp image quality."
+          },
+          {
+            "feature": "VGA Input",
+            "description": "VGA input for connecting a wide range of video sources."
+          },
+          {
+            "feature": "Heavy Duty Design",
+            "description": "Built to withstand harsh environments and heavy usage."
+          },
+          {
+            "feature": "Brightness",
+            "description": "High brightness level for visibility in various lighting conditions."
+          },
+          {
+            "feature": "Viewing Angle",
+            "description": "Wide viewing angle for optimal visibility from different positions."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Compatible with standard DC power supplies, typically 12V DC."
+          },
+          {
+            "feature": "Durability",
+            "description": "Robust construction to handle vibrations and shocks."
+          },
+          {
+            "feature": "Mounting Options",
+            "description": "Includes options for mounting or stand placement."
+          }
+        ]
+      }
+    },
+    {
+      "S.No": 16,
+      "Product Name": "4 inch AV monitor",
+      "Product Code": "AXG37",
+      "Weight in Kg": 0.6,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "/images/Heavy_duty/Heavy_duty_camera2.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "monitor",
+      "Product Specification": {
+        "description": "The 4\" AV Monitor is a compact and versatile display designed for various applications. With AV input, it provides reliable performance for use in security systems, vehicle monitors, and other compact display needs.",
+        "SpecializationPoints": [
+          {
+            "feature": "Screen Size",
+            "description": "4 inches diagonal for a compact and portable display."
+          },
+          {
+            "feature": "Resolution",
+            "description": "Provides clear image quality suitable for small-scale applications."
+          },
+          {
+            "feature": "AV Input",
+            "description": "AV input for connecting with various video sources."
+          },
+          {
+            "feature": "Brightness",
+            "description": "Adequate brightness for clear visibility in different lighting conditions."
+          },
+          {
+            "feature": "Viewing Angle",
+            "description": "Decent viewing angle for visibility from multiple positions."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Operates on standard DC power, typically 12V DC."
+          },
+          {
+            "feature": "Compact Design",
+            "description": "Small form factor ideal for space-constrained applications."
+          },
+          {
+            "feature": "Mounting Options",
+            "description": "Includes options for mounting or stand placement."
+          }
+        ]
+      }
+    },
+    {
+      "S.No": 17,
+      "Product Name": "4k Recording monitor kit",
+      "Product Code": "AXG22",
+      "Weight in Kg": 3,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://images-cdn.ubuy.co.in/633b3b67423dea51467b513c-ubuy-online-shopping.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "monitor",
+    "Product Specification": {
+      "description": "The 4K Recording Monitor Kit is a high-performance solution designed for professional video recording and monitoring. It features 4K resolution for ultra-high-definition image quality and includes essential components for capturing and reviewing high-resolution video footage.",
+      "SpecializationPoints": [
+        {
+          "feature": "Screen Resolution",
+          "description": "4K UHD resolution for sharp and detailed video quality."
+        },
+        {
+          "feature": "Recording Capability",
+          "description": "Integrated recording functions for capturing high-definition video."
+        },
+        {
+          "feature": "Input Options",
+          "description": "Multiple input options including HDMI, DisplayPort, and USB-C for versatile connectivity."
+        },
+        {
+          "feature": "Playback Support",
+          "description": "Supports playback of recorded footage directly from the monitor."
+        },
+        {
+          "feature": "High Brightness",
+          "description": "Enhanced brightness for visibility in various lighting conditions."
+        },
+        {
+          "feature": "Wide Viewing Angle",
+          "description": "Wide viewing angle for accurate color representation from different positions."
+        },
+        {
+          "feature": "Power Supply",
+          "description": "Compatible with standard power supplies, typically 110-240V AC."
+        },
+        {
+          "feature": "Included Accessories",
+          "description": "Includes cables, mounting hardware, and a remote control."
+        },
+        {
+          "feature": "Build Quality",
+          "description": "Durable construction suitable for professional environments."
+        },
+        {
+          "feature": "Dimensions",
+          "description": "Dimensions vary by model."
+        },
+        {
+          "feature": "Weight",
+          "description": "Weight varies by model."
+        }
+      ]
+    }
+    },
+    {
+      "S.No": 18,
+      "Product Name": "720 2ch Recording Monitor Kit",
+      "Product Code": "AXG69",
+      "Weight in Kg": 3,
+      "Product DataSheet": "",
+      "Product Folder Name": "720 2ch monitor kit",
+      "Product Images1": "/images/720_2ch_monitor_kit/720 2ch monitor kit2.jpg",
+      "Product Images2": "/images/720_2ch_monitor_kit/720 2ch monitor kit1.jpg",
+      "Product Images3": "/images/720_2ch_monitor_kit/720 2ch monitor kit.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"monitor",
+      "Product Specification": {
+        "description": "The 720p 2CH Recording Monitor Kit is designed for efficient video monitoring and recording in environments where high-definition clarity is needed. This kit supports 720p resolution and allows for recording from two channels simultaneously.",
+        "SpecializationPoints": [
+          {
+            "feature": "Screen Resolution",
+            "description": "720p HD resolution for clear and detailed video display."
+          },
+          {
+            "feature": "Recording Capability",
+            "description": "Records video from two channels simultaneously for enhanced monitoring."
+          },
+          {
+            "feature": "Input Options",
+            "description": "Supports multiple input options including HDMI and VGA for versatile connectivity."
+          },
+          {
+            "feature": "Playback Support",
+            "description": "Direct playback of recorded footage from the monitor."
+          },
+          {
+            "feature": "Brightness",
+            "description": "Adequate brightness for clear visibility in various lighting conditions."
+          },
+          {
+            "feature": "Viewing Angle",
+            "description": "Wide viewing angle to ensure accurate image reproduction from different perspectives."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Compatible with standard DC power supplies, typically 12V DC."
+          },
+          {
+            "feature": "Included Accessories",
+            "description": "Includes cables, mounting hardware, and a remote control."
+          },
+          {
+            "feature": "Build Quality",
+            "description": "Sturdy construction designed for reliable performance in various environments."
+          },
+          {
+            "feature": "Dimensions",
+            "description": "Dimensions vary by model."
+          },
+          {
+            "feature": "Weight",
+            "description": "Weight varies by model."
+          }
+        ]
+      }
+    },
+    {
+      "S.No": 19,
+      "Product Name": "2 MP IR indoor Dome Camera",
+      "Product Code": "AXG10",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "Indoor Dome Camera",
+      "Product Images1": "/images/Indore_dome_camera/Indoor_Dome_camera.jpg",
+      "Product Images2": "/images/Indore_dome_camera/Indoor_Dome_camera1.jpg",
+      "Product Images3": "/images/Indore_dome_camera/Indoor_Dome_camera2.jpg",
+      "Product Images4": "/images/Indore_dome_camera/Indoor_Dome_camera3.jpg",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The AXEL GUARD-150RH is a high-performance TruVision IP 18/36X Speed Dome camera designed for advanced surveillance. Featuring a 2 MP Full HD sensor with a 150- meter true night vision range, it ensures clear images even in low light conditions. The camera utilizes H.265/264 compression technology for efficient video streaming and is ONVIF compliant for compatibility with various systems. With 360° endless rotation, fast pan and tilt speeds, and 128 preset positions, it offers versatile monitoring capabilities. The AXEL GUARD-150RH is IP66 rated for weather resistance and includes optional SDHC card support for local storage.",
+         "SpecializationPoints": [
+          {
+            "feature": "Image Sensor",
+            "description": "2 MP Full HD sensor with 1/2.8\" Progressive Scan CMOS for high-resolution imaging."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "True Night Vision up to 150 meters for effective surveillance in darkness."
+          },
+          {
+            "feature": "Compression Technology",
+            "description": "Advanced H.265/264 compression for high-quality video with reduced bandwidth."
+          },
+          {
+            "feature": "Pan Tilt Functionality",
+            "description": "360° endless rotation with pan speed up to 240°/s and tilt speed up to 200°/s."
+          },
+          {
+            "feature": "Preset Positions",
+            "description": "128 preset positions, 8 preset tours, and 4 shadow tours for customized monitoring."
+          },
+          {
+            "feature": "Speed Dome Features",
+            "description": "High-speed dome with optional 7 alarm inputs and 2 relay outputs for enhanced security."
+          },
+          {
+            "feature": "Protection Rating",
+            "description": "IP66 rated for protection against dust and water ingress."
+          },
+          {
+            "feature": "Wide Dynamic Range",
+            "description": "DWDR for improved image quality in varying lighting conditions."
+          },
+          {
+            "feature": "Power Options",
+            "description": "Supports DC12V, PoE+, and 24VAC for flexible installation."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "ONVIF compliant with support for various platforms, including private, PSIA, CGI."
+          }
+         ]
+        }
+    },
+    {
+      "S.No": 20,
+      "Product Name": "2 MP IR Outdoor Bullet Camera",
+      "Product Code": "AXG11",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "Outdoor Bullet camera",
+      "Product Images1": "/images/outdoor_bullet_camera/Bullet_camera.jpg",
+      "Product Images2": "/images/outdoor_bullet_camera/Bullet_camera1.jpg",
+      "Product Images3": "/images/outdoor_bullet_camera/Bullet_camera2.jpg",
+      "Product Images4": "/images/outdoor_bullet_camera/Bullet_camera3.jpg",
+      "Product Images5": "/images/outdoor_bullet_camera/Bullet_camera4.jpg",
+      "category": "camera",
+      "Product Specification": {
+          "description": "The AXEL GUARD-150RH TruVision IP 18/36X 2MP Speed Bullet Camera combines advanced features for high-performance surveillance. Equipped with a 1/2.8\" Progressive Scan CMOS sensor, it delivers Full HD 1080p resolution with true night vision up to 150 meters. The camera uses H.265/264 compression for efficient video storage and is ONVIF compliant for interoperability. With 128 preset positions, 8 preset tours, and 4 shadow tours, it offers comprehensive coverage. It supports a wide dynamic range and features 360° endless rotation, 240°/s pan speed, and 200°/s tilt speed. The camera is IP66 rated, ensuring durability in various weather conditions.",
+           "SpecializationPoints": [
+            {
+              "feature": "Resolution",
+              "description": "Full HD 1080p with a 2 MPX sensor for clear, high-quality images."
+            },
+            {
+              "feature": "Night Vision",
+              "description": "True night vision capability up to 150 meters with Smart IR technology."
+            },
+            {
+              "feature": "Compression Technology",
+              "description": "Utilizes H.265/264 for high-efficiency video compression."
+            },
+            {
+              "feature": "Pan Tilt Functionality",
+              "description": "360° endless rotation with pan speed up to 240°/s and tilt speed up to 200°/s."
+            },
+            {
+              "feature": "Preset And Tours",
+              "description": "128 preset positions, 8 preset tours, and 4 shadow tours for flexible surveillance."
+            },
+            {
+              "feature": "Wide Dynamic Range",
+              "description": "DWDR feature for enhanced image quality in challenging lighting conditions."
+            },
+            {
+              "feature": "Connectivity",
+              "description": "ONVIF compliant, supports multiple platforms including private and dynamic DNS."
+            },
+            {
+              "feature": "Durability",
+              "description": "IP66 rating for protection against dust and water, TVS3000V lightning and surge protection."
+            },
+            {
+              "feature": "Power Supply",
+              "description": "Versatile power options including PoE+ (802.3at) and 24 VAC."
+            },
+            {
+              "feature": "Temperature Range",
+              "description": "Operates effectively in temperatures ranging from -10°C to +40°C."
+            }
+           ]
+          }
+    },
+    {
+      "S.No": 21,
+      "Product Name": "2 MP Heavy Duty Bullet Camera",
+      "Product Code": "AXG57",
+      "Weight in Kg": 0.4,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "Heavy duty camera",
+      "Product Images1": "/images/Heavy_duty/Heavy_duty_camera.jpg",
+      "Product Images2": "/images/Heavy_duty/Heavy_duty_camera1.jpg",
+      "Product Images3": "/images/Heavy_duty/Heavy_duty_camera2.jpg",
+      "Product Images4": "/images/Heavy_duty/Heavy_duty_camera3.jpg",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Axel-guard Heavy Duty Bullet Camera offers robust security solutions for challenging environments. Engineered to withstand harsh conditions, it features advanced imaging technology, superior resolution, and enhanced night vision capabilities. Its weatherproof design ensures reliable performance in any climate, while integrated smart features like motion detection and real-time alerts provide proactive surveillance. Ideal for industrial sites, commercial properties, and high-security areas, this camera ensures comprehensive monitoring and peace of mind.",
+         "specializations": [
+         {
+         "feature": "Durable Construction",
+         "description": "Built to endure extreme weather conditions."
+         },
+         {
+         "feature": "High-Resolution Imaging",
+         "description": "Captures clear, detailed footage."
+         },
+         {
+         "feature": "Enhanced Night Vision",
+         "description": "Superior performance in low light."
+         },
+         {
+         "feature": "Weatherproof Design",
+         "description": "Reliable operation in all climates."
+         },
+         {
+         "feature": "Motion Detection",
+         "description": "Alerts for any movement within the camera's view."
+         },
+         {
+         "feature": "Real-Time Alerts",
+         "description": "Immediate notifications for suspicious activities."
+         },
+         {
+         "feature": "Wide-Angle Lens",
+         "description": "Broad coverage area."
+         },
+         {
+         "feature": "Remote Access",
+         "description": "Monitor from anywhere via mobile or web apps."
+         },
+         {
+         "feature": "Easy Installation",
+         "description": "Simplified setup process."
+         },
+         {
+         "feature": "Tamper Detection",
+         "description": "Alerts for potential tampering or interference."
+         }
+         ]
+        }
+    },
+    {
+      "S.No": 22,
+      "Product Name": "2 MP Heavy Duty Dome Camera",
+      "Product Code": "AXG 58",
+      "Weight in Kg": 0.4,
+      "Product DataSheet": "/images/pdfs/HDC C-120.pdf",
+      "Product Folder Name": "Heavy duty Dome camera",
+      "Product Images1": "/images/heavy_duty_dome_camera/dome_camera.jpg",
+      "Product Images2": "/images/heavy_duty_dome_camera/Dome_camera1.jpg",
+      "Product Images3": "/images/heavy_duty_dome_camera/Dome_camera2.jpg",
+      "Product Images4": "/images/heavy_duty_dome_camera/Dome_camera3.jpg",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Axel-guard Heavy Duty Dome Camera is designed for maximum security in demanding environments. Featuring high-resolution imaging and advanced night vision, it captures  clear footage day and night. Its rugged, weatherproof construction ensures durability in all conditions. Equipped with intelligent features like motion detection, real-time alerts, and remote access, this camera offers comprehensive surveillance for industrial sites, commercial properties, and high-security areas.",
+         "specializations": [
+         {
+         "feature": "Durable Construction",
+         "description": "Engineered to withstand extreme weather conditions."
+         },
+         {
+         "feature": "High-Resolution Imaging",
+         "description": "Provides clear, detailed video."
+         },
+         {
+         "feature": "Advanced Night Vision",
+         "description": "Ensures visibility in low-light environments."
+         },
+         {
+         "feature": "Weatherproof Design",
+         "description": "Maintains performance in any climate."
+         },
+         {
+         "feature": "Motion Detection",
+         "description": "Alerts for any detected movement."
+         },
+         {
+         "feature": "Real-Time Alerts",
+         "description": "Immediate notifications for suspicious activities."
+         },
+         {
+         "feature": "Wide-Angle Lens",
+         "description": "Covers a broad surveillance area."
+         },
+         {
+         "feature": "Remote Access",
+         "description": "Enables monitoring via mobile or web apps."
+         },
+         {
+         "feature": "Easy Installation",
+         "description": "Simplified setup process."
+         },
+         {
+         "feature": "Tamper Detection",
+         "description": "Sends alerts for potential tampering."
+         }
+         ]
+        }
+    },
+    {
+      "S. No": 23,
+      "S.No": 5,
+      "Product Name": "PTZ Camera",
+      "Product Code": "AXG32",
+      "Weight in Kg": "",
+      "Product DataSheet": "/images/pdfs/HDC C-120.pdf",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/41AP3VFK20L._AC_UF1000,1000_QL80_.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The PTZ (Pan-Tilt-Zoom) Camera is designed for comprehensive surveillance with its advanced pan, tilt, and zoom capabilities. Ideal for large areas requiring flexible and dynamic monitoring, this camera provides high-resolution video, adjustable viewing angles, and remote control features.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "High-resolution video recording, often 1080p or 4K, for clear and detailed footage."
+          },
+          {
+            "feature": "Pan/Tilt Range",
+            "description": "Wide pan and tilt range for full coverage of the monitored area. Typical pan range: 360°, tilt range: 90°."
+          },
+          {
+            "feature": "Zoom Capability",
+            "description": "Optical zoom capabilities, allowing for close-up views and detailed monitoring."
+          },
+          {
+            "feature": "Remote Control",
+            "description": "Remote control via software or physical control panel for adjusting pan, tilt, and zoom settings."
+          },
+          {
+            "feature": "Low Light Performance",
+            "description": "Enhanced performance in low light conditions for reliable monitoring day and night."
+          },
+          {
+            "feature": "Motion Detection",
+            "description": "Built-in motion detection for triggering alerts and recording when movement is detected."
+          },
+          {
+            "feature": "Auto Tracking",
+            "description": "Automatic tracking of moving objects to ensure they remain within the frame."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "Durable, weather-resistant construction for outdoor use in various environmental conditions."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via PoE (Power over Ethernet) or standard DC power supply."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Supports network connectivity for remote access and integration with surveillance systems."
+          }
+        ]
+      }  
+    },
+    {
+      "S. No": 24,
+      "S.No": 6,
+      "Product Name": "4k Monitor Camera",
+      "Product Code": "AXG33",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "",
+      "Product Images1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQid_1PTaMqb-MYAVm7kB5Bpv3mP4vCQQKoGQ&s",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The 4K Monitor Camera offers ultra-high-definition video recording and monitoring, providing crystal-clear image quality. This camera is designed for detailed surveillance and can be used in various settings, including security and monitoring applications.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "4K Ultra HD resolution for exceptional image clarity and detail."
+          },
+          {
+            "feature": "Monitor Integration",
+            "description": "Built-in monitor or integrated with external 4K monitor for real-time viewing and recording."
+          },
+          {
+            "feature": "Video Quality",
+            "description": "High-quality video with advanced image processing for clear and accurate footage."
+          },
+          {
+            "feature": "Zoom Capability",
+            "description": "Optical zoom for close-up viewing and detailed monitoring."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Supports various connectivity options including HDMI, DisplayPort, and network interfaces for easy integration."
+          },
+          {
+            "feature": "Low Light Performance",
+            "description": "Enhanced performance in low light conditions for reliable 24/7 monitoring."
+          },
+          {
+            "feature": "Remote Access",
+            "description": "Remote access capabilities for monitoring and controlling the camera from a distance."
+          },
+          {
+            "feature": "Recording Options",
+            "description": "Supports local and cloud-based recording options for video storage."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "Durable and weather-resistant design suitable for outdoor and harsh environments."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via PoE (Power over Ethernet) or standard DC power supply."
+          }
+        ]
+      }  
+    },
+    {
+      "S. No": 24,
+      "S.No": 7,
+      "Product Name": "Replacement Bullet Camera 2mp",
+      "Product Code": "AXG59",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "Outdoor Bullet camera",
+      "Product Images1": "/images/outdoor_bullet_camera/Bullet_camera1.jpg",
+      "Product Images2": "/images/outdoor_bullet_camera/Bullet_camera.jpg",
+      "Product Images3": "/images/outdoor_bullet_camera/Bullet_camera2.jpg",
+      "Product Images4": "/images/outdoor_bullet_camera/Bullet_camera3.jpg",
+      "Product Images5": "/images/outdoor_bullet_camera/Bullet_camera4.jpg",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Replacement Bullet Camera 2MP is designed for reliable video surveillance with high-definition 2MP resolution. It offers durable construction and easy installation for replacing existing bullet cameras in security systems.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "2 Megapixels (MP) for clear and detailed video capture."
+          },
+          {
+            "feature": "Lens",
+            "description": "Fixed or adjustable lens for various field of views and zoom capabilities."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for enhanced visibility in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Durability",
+            "description": "Robust design suitable for both indoor and outdoor environments."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "IP66 or similar weatherproof rating for reliable outdoor performance."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Standard connectivity options, typically including BNC or IP interfaces."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Powered via DC 12V or PoE (Power over Ethernet) depending on the model."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting hardware for easy installation on walls or ceilings."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "Compatible with standard DVRs or NVRs for integration into existing security systems."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 25,
+      "S.No": 8,
+      "Product Name": "Replacement Dome Camera 2 mp",
+      "Product Code": "AXG60",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "Indoor Dome Camera",
+      "Product Images1": "/images/heavy_duty_dome_camera/Dome_camera2.jpg",
+      "Product Images2": "/images/heavy_duty_dome_camera/Dome_camera1.jpg",
+      "Product Images3": "/images/heavy_duty_dome_camera/dome_camera.jpg",
+      "Product Images4": "/images/heavy_duty_dome_camera/Dome_camera3.jpg",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Replacement Dome Camera 2MP offers high-definition video surveillance in a compact, discreet dome form factor. It is designed for easy replacement of existing dome cameras and provides reliable performance with clear video capture and durable construction.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "2 Megapixels (MP) for high-definition video clarity and detail."
+          },
+          {
+            "feature": "Lens",
+            "description": "Fixed or varifocal lens options for adjustable field of view and zoom capabilities."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for clear visibility in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Durability",
+            "description": "Robust and compact design suitable for both indoor and outdoor use."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "IP66 or similar weatherproof rating, ensuring reliable performance in outdoor environments."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Standard connectivity options including BNC or IP interfaces for integration into security systems."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via DC 12V or PoE (Power over Ethernet), depending on the model."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting hardware for secure installation on ceilings or walls."
+          },
+          {
+            "feature": "Vandal Resistance",
+            "description": "Vandal-resistant design to withstand tampering and impact."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "Compatible with standard DVRs or NVRs for seamless integration into existing surveillance setups."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 26,
+      "S.No": 9,
+      "Product Name": "Replacement Dome Audio Camera",
+      "Product Code": "AXG61",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/AXEL GUARD-150RH Camera,.pdf",
+      "Product Folder Name": "Audio Camera",
+      "Product Images1": "/images/audio_camera/Dome_audio_camera.jpg",
+      "Product Images2": "/images/audio_camera/Dome_audio_camera1.jpg",
+      "Product Images3": "/images/audio_camera/Dome_audio_camera2.jpg",
+      "Product Images4": "/images/audio_camera/Dome_audio_camera3.jpg",
+      "Product Images5": "/images/audio_camera/Dome_audio_camera4.jpg",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Replacement Dome Audio Camera integrates both high-definition video surveillance and audio recording in a compact, dome-shaped design. Ideal for security and monitoring applications, this camera provides clear video and audio capture, making it suitable for environments where both visual and audio evidence is required.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "Typically 2MP or higher for clear and detailed video capture."
+          },
+          {
+            "feature": "Audio Capability",
+            "description": "Built-in microphone for recording high-quality audio along with video."
+          },
+          {
+            "feature": "Lens",
+            "description": "Fixed or varifocal lens options for adjustable field of view and zoom."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for clear video and audio recording in low-light conditions."
+          },
+          {
+            "feature": "Durability",
+            "description": "Sturdy and compact design for both indoor and outdoor use."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "IP66 or similar weatherproof rating for reliable performance in various weather conditions."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Standard connectivity options including BNC or IP interfaces for integration with existing systems."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via DC 12V or PoE (Power over Ethernet)."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting hardware for secure installation on walls or ceilings."
+          },
+          {
+            "feature": "Vandal Resistance",
+            "description": "Vandal-resistant design to prevent tampering and damage."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "Compatible with standard DVRs or NVRs for video and audio recording and playback."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 27,
+      "S.No": 10,
+      "Product Name": "Reverse Camera",
+      "Product Code": "AXG35",
+      "Weight in Kg": "",
+      "Product DataSheet": "/images/pdfs/HDC C-120.pdf",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/81O9s5k97BL.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The Reverse Camera is designed to assist drivers with safe reversing by providing a clear view of the area behind the vehicle. It is compact, easy to install, and offers reliable performance in various conditions.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "Typically 480p or 720p for clear and detailed rear view monitoring."
+          },
+          {
+            "feature": "Lens",
+            "description": "Wide-angle lens for a broad field of view to cover the rear area of the vehicle."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for enhanced visibility in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Durability",
+            "description": "Robust design to withstand outdoor conditions and vibration from vehicle movement."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "IP67 or similar weatherproof rating to ensure reliable operation in various weather conditions."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Standard connectivity options including RCA or video cables for easy integration with vehicle display systems."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via vehicle's DC 12V power system."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting hardware for secure installation on the rear of the vehicle."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "Compatible with standard vehicle monitors or head units equipped with video input."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 28,
+      "S.No": 11,
+      "Product Name": "2mp IR Audio Camera",
+      "Product Code": "AXG42",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/HDC C-120.pdf",
+      "Product Folder Name": "Audio Camera",
+      "Product Images1": "/images/audio_camera/Dome_audio_camera.jpg",
+      "Product Images2": "/images/audio_camera/Dome_audio_camera1.jpg",
+      "Product Images3": "/images/audio_camera/Dome_audio_camera2.jpg",
+      "Product Images4": "/images/audio_camera/Dome_audio_camera3.jpg",
+      "Product Images5": "/images/audio_camera/Dome_audio_camera4.jpg",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The 2MP IR Audio Camera provides high-definition video surveillance with integrated audio recording capabilities. Equipped with infrared (IR) LEDs for clear night vision, this camera is suitable for various security applications requiring both video and audio monitoring.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "2 Megapixels (MP) for clear and detailed video capture."
+          },
+          {
+            "feature": "Audio Capability",
+            "description": "Built-in microphone for high-quality audio recording along with video."
+          },
+          {
+            "feature": "Infrared Night Vision",
+            "description": "IR LEDs for enhanced visibility in low-light and complete darkness."
+          },
+          {
+            "feature": "Lens",
+            "description": "Fixed or varifocal lens options for adjustable field of view and zoom."
+          },
+          {
+            "feature": "Durability",
+            "description": "Sturdy construction suitable for both indoor and outdoor environments."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "IP66 or similar weatherproof rating to ensure reliable performance in harsh conditions."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Standard connectivity options including BNC or IP interfaces for easy integration."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via DC 12V or PoE (Power over Ethernet) depending on the model."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting hardware for secure installation on walls or ceilings."
+          },
+          {
+            "feature": "Vandal Resistance",
+            "description": "Vandal-resistant design to prevent tampering and damage."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "Compatible with standard DVRs or NVRs for video and audio recording and playback."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 29,
+      "S.No": 12,
+      "Product Name": "DFMS Camera",
+      "Product Code": "AXG53",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/HDC C-120.pdf",
+      "Product Folder Name": "DFMS Camera",
+      "Product Images1": "/images/DFMS_camera/DFMS_camera.jpg",
+      "Product Images2": "/images/DFMS_camera/DFMS_camera1.jpg",
+      "Product Images3": "/images/DFMS_camera/DFMS_camera2.jpg",
+      "Product Images4": "/images/DFMS_camera/DFMS_camera3.jpg",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The DFMS Camera is a high-performance surveillance camera designed for advanced monitoring applications. It features cutting-edge technology for superior image quality and reliable operation in various conditions.",
+        "SpecializationPoints": [
+          {
+            "feature": "Resolution",
+            "description": "High-definition resolution for clear and detailed video capture."
+          },
+          {
+            "feature": "Lens",
+            "description": "Varifocal or fixed lens options for adjustable field of view and zoom capabilities."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Equipped with infrared (IR) LEDs for enhanced visibility in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Durability",
+            "description": "Robust design suitable for both indoor and outdoor use."
+          },
+          {
+            "feature": "Weather Resistance",
+            "description": "IP66 or similar weatherproof rating to ensure reliable performance in various weather conditions."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Standard connectivity options including BNC, IP, or other interfaces for integration with existing systems."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Typically powered via DC 12V or PoE (Power over Ethernet)."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting hardware for secure installation on walls, ceilings, or other surfaces."
+          },
+          {
+            "feature": "Vandal Resistance",
+            "description": "Designed to withstand tampering and impact."
+          },
+          {
+            "feature": "Compatibility",
+            "description": "Compatible with standard DVRs or NVRs for video recording and playback."
+          },
+          {
+            "feature": "Special Features",
+            "description": "May include additional features such as motion detection, analytics, or remote access capabilities."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 30,
+      "S.No": 13,
+      "Product Name": "ADAS Camera",
+      "Product Code": "AXG52",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/HDC C-120.pdf",
+      "Product Folder Name": "ADAS Camera",
+      "Product Images1": "/images/ADAS_camera/ADAS_camera.jpg",
+      "Product Images2": "/images/ADAS_camera/ADAS_camera1.jpg",
+      "Product Images3": "/images/ADAS_camera/ADAS_camera2.jpg",
+      "Product Images4": "/images/ADAS_camera/ADAS_camera3.jpg",
+      "Product Images5": "",
+      "category":"camera",
+      "Product Specification":{
+          "description": "The TL-ADAS-S2 ADAS Camera is designed for advanced driving assistance systems, featuring the SOI H65 CMOS image sensor for superior image quality. It provides Full HD 720P resolution with a 3.6 mm focal length lens, offering a wide view angle of 85° (diagonal), 60° (horizontal), and 53° (vertical). The camera supports PAL signal type and operates at 25 frames per second. It is designed to function effectively in temperatures ranging from -25°C to 75°C with a humidity tolerance of up to 90%. The camera operates on 12V DC with a power consumption of just 0.8W and includes a 2.5-meter aviation connector cable for easy installation.",
+          "SpecializationPoints": [
+            {
+              "feature": "Sensor",
+              "description": "SOI H65 CMOS image sensor for high-quality imaging."
+            },
+            {
+              "feature": "Resolution",
+              "description": "Full HD 720P for clear and detailed video."
+            },
+            {
+              "feature": "Focal Length",
+              "description": "3.6 mm lens for appropriate field of view."
+            },
+            {
+              "feature": "View Angle",
+              "description": "85° diagonal, 60° horizontal, and 53° vertical for a wide coverage area."
+            },
+            {
+              "feature": "Signal Type",
+              "description": "PAL for video output."
+            },
+            {
+              "feature": "Frame Rate",
+              "description": "25 fps for smooth video capture."
+            },
+            {
+              "feature": "Temperature Range",
+              "description": "Operates in temperatures from -25°C to 75°C for reliability in extreme conditions."
+            },
+            {
+              "feature": "Humidity Tolerance",
+              "description": "Functional in up to 90% humidity."
+            },
+            {
+              "feature": "Voltage",
+              "description": "12V DC for consistent power supply."
+            },
+            {
+              "feature": "Power Consumption",
+              "description": "Low power usage of 0.8W for energy efficiency."
+            }
+          ]
+          }
+    },
+    {
+      "S. No": 31,
+      "S.No": 14,
+      "Product Name": "BSD Camera",
+      "Product Code": "AXG54",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLDEtFUxtvKBahtH5BHksQ4VeUUjHapo_cSg&s",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"camera",
+      "Product Specification":{
+        "description": "The TL-BSD-EF2 is a high-performance BSD Camera equipped with the GC2053 CMOS Image Sensor, offering Full HD 720P resolution for clear and detailed video. It features a wide viewing angle with D=186°, H=150°, and V=89°, ensuring comprehensive coverage. The camera supports 2D noise reduction (NR) for improved image clarity. It operates within a temperature range of -25°C to 75°C and humidity levels up to 90%. With a 12V DC input and a low power consumption of 0.8W, the TL-BSD-EF2 is designed for durability and efficiency. Its aviation connector allows for a 0.5 m cable length, and the pin configuration includes voltage control, access point, and AHD video signal input.",
+         "SpecializationPoints": [
+          {
+            "feature": "Image Sensor",
+            "description": "GC2053 CMOS Image Sensor for high-quality video capture."
+          },
+          {
+            "feature": "Resolution",
+            "description": "Full HD 720P resolution for detailed imaging."
+          },
+          {
+            "feature": "Noise Reduction",
+            "description": "2D NR (Noise Reduction) to enhance image clarity."
+          },
+          {
+            "feature": "Viewing Angle",
+            "description": "Wide angle of D=186°, H=150°, and V=89° for extensive coverage."
+          },
+          {
+            "feature": "Temperature Range",
+            "description": "Operates in temperatures from -25°C to 75°C."
+          },
+          {
+            "feature": "Humidity Tolerance",
+            "description": "Functions effectively in humidity levels up to 90%."
+          },
+          {
+            "feature": "Input Voltage",
+            "description": "12V DC for reliable power supply."
+          },
+          {
+            "feature": "Power Consumption",
+            "description": "Low power rating of 0.8W for energy efficiency."
+          },
+          {
+            "feature": "Cable Length",
+            "description": "Includes a 0.5 m aviation connector for easy installation."
+          },
+          {
+            "feature": "Pin Configuration",
+            "description": "Features voltage control, access point, and AHD video signal input."
+          }
+         ]
+        }
+    },
+    {
+      "S. No": 32,
+      "S.No": 1,
+      "Product Name": "4 Inch 2 Ch Dashcam",
+      "Product Code": "AXG17",
+      "Weight in Kg": 0.4,
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "4inch Dashcam",
+      "Product Images1": "/images/4inch_dashcam/4inch dashcam.png",
+      "Product Images2": "/images/4inch_dashcam/4inch dashcam1.png",
+      "Product Images3": "/images/4inch_dashcam/4inch dashcam2.png",
+      "Product Images4": "/images/4inch_dashcam/4inch dashcam3.png",
+      "Product Images5": "",
+      "category": "camera",
+      "Product Specification": {
+        "description": "The 4 Inch 2 Channel Dashcam offers comprehensive recording capabilities for both front and rear views. It features a 4-inch display for easy monitoring and playback, along with dual-channel recording to capture both the road ahead and the interior or rear of the vehicle.",
+        "SpecializationPoints": [
+          {
+            "feature": "Display",
+            "description": "4-inch LCD screen for clear viewing and playback of recorded footage."
+          },
+          {
+            "feature": "Channel Recording",
+            "description": "Two-channel recording to capture video from both front and rear cameras."
+          },
+          {
+            "feature": "Resolution",
+            "description": "Typically records in Full HD (1080p) for high-quality video capture."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for enhanced visibility in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Loop Recording",
+            "description": "Automatically overwrites the oldest footage when the storage is full to ensure continuous recording."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor detects sudden impacts or collisions and saves the relevant footage."
+          },
+          {
+            "feature": "Parking Mode",
+            "description": "Monitors the vehicle while parked and records any motion or impact detected."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Includes USB or HDMI ports for data transfer and playback."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Powered via vehicle’s DC 12V system or included power adapter."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes suction cup or adhesive mount for secure attachment to the windshield or dashboard."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 33,
+      "S.No": 2,
+      "Product Name": "10 inch 2 Ch Full Touch Dashcam",
+      "Product Code": "AXG18",
+      "Weight in Kg": 0.75,
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "10inch Dashcam",
+      "Product Images1": "/images/10inch_dashcam/10inch dashcam.png",
+      "Product Images2": "/images/10inch_dashcam/10inch dashcam1.png",
+      "Product Images3": "/images/10inch_dashcam/10inch dashcam2.png",
+      "Product Images4": "/images/10inch_dashcam/10inch dashcam3.png",
+      "Product Images5": "/images/10inch_dashcam/10inch dashcam4.png",
+      "category": "camera",
+      "Product Specification":{
+        "description": "The 4-Inch 3-Channel Touch Screen Dash Cam offers high-definition video recording with a user-friendly interface. Equipped with a 170-degree ultrawide-angle lens, it captures clear footage from both front and rear cameras. The device features a touch screen for easy mode selection, photo and video capture, and playback. It supports seamless circular video recording with no gaps, automatic start/stop based on vehicle power, and motion detection. Additional functions include parking monitoring, HDR for low-light conditions, and gravity induction to lock critical footage during collisions. Its versatile connectivity options and intuitive controls make it an ideal choice for comprehensive vehicle surveillance.",
+        "SpecializationPoints": [
+          {
+            "feature": "Ultra-Wide-Angle Lens",
+            "description": "170-degree ultra-wide-angle lens for comprehensive coverage."
+          },
+          {
+            "feature": "Touch Screen",
+            "description": "10-inch high-definition touch screen for easy operation and settings adjustment."
+          },
+          {
+            "feature": "Video Resolution",
+            "description": "Supports up to 1080P video resolution for clear recording."
+          },
+          {
+            "feature": "Circular Recording",
+            "description": "Circular recording with no missing seconds and automatic start/stop."
+          },
+          {
+            "feature": "USB Interface and TF Card Slot",
+            "description": "Includes USB data interface and TF card slot (up to 32GB)."
+          },
+          {
+            "feature": "Rear-View Camera Compatibility",
+            "description": "Compatible with rear-view camera for additional perspective."
+          },
+          {
+            "feature": "Charging Options",
+            "description": "Charges via power adapter, PC-USB, or on-board power supply."
+          },
+          {
+            "feature": "Motion Detection",
+            "description": "Automatically records when motion is detected, enhancing security."
+          },
+          {
+            "feature": "Vibration Detection",
+            "description": "Activates recording when vehicle vibration is detected."
+          },
+          {
+            "feature": "Low-Light Video Quality",
+            "description": "Enhances video quality in low-light conditions with infrared supplementary lamp."
+          }
+        ]
+        }
+    },
+    {
+      "S. No": 34,
+      "S.No": 3,
+      "Product Name": "10 inch 2 Ch 4g, GPS, Android Dashcam",
+      "Product Code": "AXG19",
+      "Weight in Kg": 0.75,
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "10inch Dashcam 4G GPS",
+      "Product Images1": "/images/10inch_dashcam/10inch dashcam5.png",
+      "Product Images2": "/images/10inch_dashcam/10inch dashcam6.png",
+      "Product Images3": "/images/10inch_dashcam/10inch dashcam2.png",
+      "Product Images4": "/images/10inch_dashcam/10inch dashcam3.png",
+      "Product Images5": "/images/10inch_dashcam/10inch dashcam4.png",
+      "category":"camera",
+      "Product Specification":{
+        "description": "The 10-Inch Android Dash Cam combines advanced technology and versatile features for optimal vehicle monitoring. Powered by a Spreadtrum SL8541E processor and Android 8.1, this dash cam boasts a full touch screen interface and supports high-definition video recording in both front and rear cameras. It offers a range of connectivity options, including 2G, 3G, and 4G support, as well as Wi-Fi and Bluetooth. Key functionalities include GPS navigation, voice recording, FM transmission, and ADAS safety warnings. The device ensures seamless loop recording, customizable settings, and comprehensive driving data capture, enhancing overall driving security and convenience.",
+        "SpecializationPoints": [
+          {
+            "feature": "Screen Size",
+            "description": "10 inches for a large, clear display."
+          },
+          {
+            "feature": "Processor",
+            "description": "Spreadtrum SL8541E, quad-core Cortex-A53@1.4GHz for efficient performance."
+          },
+          {
+            "feature": "Operating System",
+            "description": "Android 8.1 for a user-friendly interface."
+          },
+          {
+            "feature": "Video Resolution",
+            "description": "Full HD recording from front and rear cameras."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Supports 2G, 3G, 4G, Wi-Fi, and Bluetooth."
+          },
+          {
+            "feature": "Navigation",
+            "description": "Integrated GPS navigation with real-time directions."
+          },
+          {
+            "feature": "ADAS",
+            "description": "Advanced Driver Assistance System for safety warnings."
+          },
+          {
+            "feature": "Voice Recording",
+            "description": "Built-in feature for capturing audio."
+          },
+          {
+            "feature": "FM Transmitter",
+            "description": "Allows transmission of audio to car speakers."
+          },
+          {
+            "feature": "Loop Recording",
+            "description": "Configurable recording intervals (1, 3, 5 minutes) with continuous coverage."
+          }
+        ]
+        }
+    },
+    {
+      "S. No": 35,
+      "S.No": 4,
+      "Product Name": "4k Dashcam 12 inch",
+      "Product Code": "AXG20",
+      "Weight in Kg": 0.75,
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "12 inch Dashcam",
+      "Product Images1": "/images/12inch_dashcam/12inch dashcam.png",
+      "Product Images2": "/images/12inch_dashcam/12inch dashcam1.png",
+      "Product Images3": "/images/12inch_dashcam/12inch dashcam2.png",
+      "Product Images4": "/images/12inch_dashcam/12inch dashcam3.png",
+      "Product Images5": "/images/12inch_dashcam/12inch dashcam4.png",
+      "category":"camera",
+      "Product Specification":{
+          "description": "The 4k Dashcam 12 inch is a premium vehicle monitoring device designed for comprehensive recording and safety. Featuring a 12-inch IPS HD touch screen, it offers clear, high-resolution video with 3840x2160 pixels at 30 frames per second. The dash cam includes dual lenses with a 160-degree wide-angle for extensive coverage. Equipped with an Allwinner V533 chip and high-sensitivity CMOS image sensor, it ensures detailed and reliable footage. The device supports micro SD cards up to 128GB, seamless loop recording, and has built-in GPS, WiFi, and motion detection capabilities. It operates in extreme temperatures and supports multiple languages for global usability.",
+          "SpecializationPoints": [
+            {
+              "feature": "Screen Size",
+              "description": "12-inch IPS HD touch screen for a large, clear display."
+            },
+            {
+              "feature": "Resolution",
+              "description": "3840x2160 pixels at 30 frames per second for high-definition video."
+            },
+            {
+              "feature": "Lens",
+              "description": "Dual lenses with a 160-degree wide-angle for comprehensive coverage."
+            },
+            {
+              "feature": "Chipset",
+              "description": "Allwinner V533 for efficient processing."
+            },
+            {
+              "feature": "Image Sensor",
+              "description": "High sensitivity CMOS sensor for detailed image capture."
+            },
+            {
+              "feature": "Storage",
+              "description": "Supports micro SD/micro SDHC cards up to 128GB."
+            },
+            {
+              "feature": "Connectivity",
+              "description": "Integrated GPS and WiFi for enhanced functionality."
+            },
+            {
+              "feature": "Recording Modes",
+              "description": "Seamless loop recording with 1-second overlap and configurable video duration."
+            },
+            {
+              "feature": "Motion Detection",
+              "description": "Equipped with 5-second pre-recorded motion detection."
+            },
+            {
+              "feature": "Operating Temperature",
+              "description": "Functional in temperatures ranging from -20°C to 70°C."
+            }
+          ]
+      }
+    },
+    {
+      "S. No": 36,
+      "S.No": 5,
+      "Product Name": "2k 12 inch Dashcam",
+      "Product Code": "12 inch Dashcam",
+      "Weight in Kg": "",
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "12 inch Dashcam",
+      "Product Images1": "/images/12inch_dashcam/12inch dashcam5.png",
+      "Product Images2": "/images/12inch_dashcam/12inch dashcam1.png",
+      "Product Images3": "/images/12inch_dashcam/12inch dashcam2.png",
+      "Product Images4": "/images/12inch_dashcam/12inch dashcam3.png",
+      "Product Images5": "/images/12inch_dashcam/12inch dashcam4.png",
+      "category":"camera",
+      "Product Specification": {
+        "description": "The 2K 12 Inch Dashcam offers high-resolution video recording with a large 12-inch display. It provides clear, detailed footage with its 2K resolution and includes advanced features for comprehensive vehicle monitoring.",
+        "SpecializationPoints": [
+          {
+            "feature": "Display",
+            "description": "12-inch LCD screen for large, clear viewing and playback of recorded footage."
+          },
+          {
+            "feature": "Resolution",
+            "description": "2K (1440p) resolution for high-definition video capture with greater detail."
+          },
+          {
+            "feature": "Dual Channel Recording",
+            "description": "Records video from both front and rear cameras for comprehensive coverage."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for enhanced visibility in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Loop Recording",
+            "description": "Automatically overwrites the oldest footage when the storage is full to ensure continuous recording."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor detects sudden impacts or collisions and saves the relevant footage."
+          },
+          {
+            "feature": "Parking Mode",
+            "description": "Monitors the vehicle while parked and records any motion or impact detected."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Includes USB or HDMI ports for data transfer and playback."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Powered via vehicle’s DC 12V system or included power adapter."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting options for secure attachment to the windshield or dashboard."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 37,
+      "S.No": 6,
+      "Product Name": "2ch AI Dashcam ADAS + DSM",
+      "Product Code": "AXG30",
+      "Weight in Kg": 1,
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "2ch AI Dashcam",
+      "Product Images1": "/images/2ch_AI_dashcam/2ch AI dashcam.png",
+      "Product Images2": "/images/2ch_AI_dashcam/2ch AI dashcam1.png",
+      "Product Images3": "/images/2ch_AI_dashcam/2ch AI dashcam2.png",
+      "Product Images4": "/images/2ch_AI_dashcam/2ch AI dashcam3.png",
+      "Product Images5": "/images/2ch_AI_dashcam/2ch AI dashcam4.png",
+      "category":"camera",
+      "Product Specification": {
+        "description": "The 2 Channel AI Dashcam with ADAS (Advanced Driver Assistance Systems) and DSM (Driver State Monitoring) combines high-resolution recording with intelligent driving assistance features. This dashcam provides enhanced safety and convenience by using AI technologies for real-time analysis and monitoring.",
+        "SpecializationPoints": [
+          {
+            "feature": "Display",
+            "description": "Large LCD screen for clear viewing and playback of recorded footage."
+          },
+          {
+            "feature": "Resolution",
+            "description": "High-definition resolution for detailed video capture from both front and rear cameras."
+          },
+          {
+            "feature": "ADAS (Advanced Driver Assistance Systems)",
+            "description": "Includes features like lane departure warning, forward collision warning, and emergency braking assistance."
+          },
+          {
+            "feature": "DSM (Driver State Monitoring)",
+            "description": "Monitors driver’s attention and state, providing alerts for drowsiness and distraction."
+          },
+          {
+            "feature": "AI Integration",
+            "description": "Artificial intelligence algorithms for real-time analysis and enhancement of driving safety."
+          },
+          {
+            "feature": "Night Vision",
+            "description": "Infrared (IR) LEDs for clear video capture in low-light and nighttime conditions."
+          },
+          {
+            "feature": "Loop Recording",
+            "description": "Automatically overwrites the oldest footage when the storage is full to ensure continuous recording."
+          },
+          {
+            "feature": "G-Sensor",
+            "description": "Built-in G-sensor detects sudden impacts or collisions and saves the relevant footage."
+          },
+          {
+            "feature": "Parking Mode",
+            "description": "Records any motion or impact detected while the vehicle is parked."
+          },
+          {
+            "feature": "Connectivity",
+            "description": "Includes USB or Wi-Fi for easy data transfer and firmware updates."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Powered via vehicle’s DC 12V system or included power adapter."
+          },
+          {
+            "feature": "Mounting",
+            "description": "Includes mounting options for secure installation on the windshield or dashboard."
+          }
+        ]
+      }
+    },
+    {
+      "S. No": 38,
+      "S.No": 7,
+      "Product Name": "4ch AI Dashcam ADAS + DSM",
+      "Product Code": "AXG31",
+      "Weight in Kg": 1,
+      "Product DataSheet": "/images/pdfs/4Inch 3Channel Touch Screen Dash Cam.pdf",
+      "Product Folder Name": "4ch AI Dashcam",
+      "Product Images1": "/images/4ch_AI_dashcam/4ch AI Dashcam.png",
+      "Product Images2": "/images/4ch_AI_dashcam/4ch AI Dashcam1.png",
+      "Product Images3": "/images/4ch_AI_dashcam/4ch AI Dashcam2.png",
+      "Product Images4": "/images/4ch_AI_dashcam/4ch AI Dashcam3.png",
+      "Product Images5": "/images/4ch_AI_dashcam/4ch AI Dashcam4.png"
+    },
+    {
+      "S. No": 39,
+      "S.No": 8,
+      "Product Name": "wifi Dash Cam",
+      "Product Code": "AXG40",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "/images/pdfs/Hidden wifi Dash Cam.pdf",
+      "Product Folder Name": "Wifi Dashcam",
+      "Product Images1": "/images/wifi_dashcam/wifi dashcam.png",
+      "Product Images2": "/images/wifi_dashcam/wifi dashcam1.png",
+      "Product Images3": "/images/wifi_dashcam/wifi dashcam2.png",
+      "Product Images4": "/images/wifi_dashcam/wifi dashcam3.png",
+      "Product Images5": "/images/wifi_dashcam/wifi dashcam4.png"
+    },
+    {
+      "S. No": 40,
+      "S.No": 9,
+      "Product Name": "4 inch 3 camera Dash Cam",
+      "Product Code": "AXG39",
+      "Weight in Kg": 0.4,
+      "Product DataSheet": "/images/pdfs/Hidden wifi Dash Cam.pdf",
+      "Product Folder Name": "4inch Dashcam 3ch",
+      "Product Images1": "/images/4inch_dashcam/4inch dashcam.png",
+      "Product Images2": "/images/4inch_dashcam/4inch dashcam1.png",
+      "Product Images3": "/images/4inch_dashcam/4inch dashcam2.png",
+      "Product Images4": "/images/4inch_dashcam/4inch dashcam3.png",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 41,
+      "S.No": 1,
+      "Product Name": "RealTrack GPS",
+      "Product Code": "AXG21",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://4.imimg.com/data4/UQ/UA/MY-3311521/school-bus-gps-system.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 42,
+      "S.No": 2,
+      "Product Name": "GPS Renewal",
+      "Product Code": "AXG23",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2021/4/BB/NE/PU/100046944/carot-gps-migration-500x500.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 43,
+      "S.No": 1,
+      "Product Name": "Surveillance Grade 64GB SD Card",
+      "Product Code": "AXG13",
+      "Weight in Kg": 0.05,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://www.techadvisor.com/wp-content/uploads/2023/11/microsd_cards_1.jpg?quality=50&strip=all",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 44,
+      "S.No": 2,
+      "Product Name": "Surveillance Grade 128GB SD Card",
+      "Product Code": "AXG14",
+      "Weight in Kg": 0.05,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/51CKDW20+BS._AC_UF1000,1000_QL80_.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 45,
+      "S.No": 3,
+      "Product Name": "Surveillance Grade 256GB SD Card",
+      "Product Code": "AXG15",
+      "Weight in Kg": 0.05,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2023/3/294490179/QQ/HP/JY/65013077/256-gb-1.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 46,
+      "S.No": 4,
+      "Product Name": "Surveillance Grade 512GB SD Card",
+      "Product Code": "AXG71",
+      "Weight in Kg": 0.05,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/71QwMfhn0sL.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 47,
+      "S.No": 5,
+      "Product Name": "HDD 1 TB",
+      "Product Code": "HDD 1 TB",
+      "Weight in Kg": 0.2,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/511Da3Z+XxL._AC_UF1000,1000_QL80_.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 48,
+      "S.No": 1,
+      "Product Name": "2.4G RFID Animal Ear Tag",
+      "Product Code": "AXG26",
+      "Weight in Kg": 0.01,
+      "Product DataSheet": "/images/pdfs/UHF RFID Animal Ear Tracking Tag (MR3876A).pdf",
+      "Product Folder Name": "Animal Tag",
+      "Product Images1": "/images/AnimalTag/Animal_tag.jpg",
+      "Product Images2": "/images/AnimalTag/Animal_tag1.jpg",
+      "Product Images3": "/images/AnimalTag/Animal_tag2.jpg",
+      "Product Images4": "/images/AnimalTag/Animal_tag3.jpg",
+      "Product Images5": "",
+      "category": "tag",
+      "Product Specification":{
+        "ProductDescription": "The MR3876A UHF RFID Animal Ear Tracking Tag is a cutting-edge 2.4G active RFID solution designed for large-scale livestock management. It addresses the limitations of traditional passive ear tags by offering a remarkable communication range of up to 400 meters with a high recognition rate of 99%. Featuring a unique, unchangeable ID number and customizable laser engraving options, this tag supports future expansions such as temperature and motion recognition. With a durable ABS construction and an IP67 rating, it ensures reliable performance under various environmental conditions. The tag's lightweight design and long battery life make it ideal for extensive agricultural applications.",
+         "SpecializationPoints": [
+          {
+            "feature": "Communication Range",
+            "description": "Up to 400 meters with a 2.4G Ultra-long Range Integrated Reader."
+          },
+          {
+            "feature": "Recognition Rate",
+            "description": "High accuracy with a 99% recognition rate due to advanced anti-collision algorithm."
+          },
+          {
+            "feature": "Unique ID",
+            "description": "Global unique ID number; customizable with laser engraving."
+          },
+          {
+            "feature": "Future Expansion",
+            "description": "Supports additional features such as temperature recognition, motion detection, and light alarms."
+          },
+          {
+            "feature": "Durability",
+            "description": "Made of heat-resistant ABS material and rated IP67 for water and dust resistance."
+          },
+          {
+            "feature": "Battery Life",
+            "description": "Up to 3 years, minimizing maintenance needs."
+          },
+          {
+            "feature": "Lightweight",
+            "description": "Weighs only 17 grams, ensuring comfort for animals."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Functional from -20°C to +60°C, suitable for various climates."
+          },
+          {
+            "feature": "Installation",
+            "description": "Easy ear-piercing installation."
+          },
+          {
+            "feature": "Communication Protocol",
+            "description": "Utilizes 2.4G IoT technology for flexible data communication and system integration."
+          }
+         ]
+        }
+    },
+    {
+      "S. No": 49,
+      "S.No": 2,
+      "Product Name": "2.4G Active Tag (Card Type) HX607",
+      "Product Code": "AXG70",
+      "Weight in Kg": 0.02,
+      "Product DataSheet": "",
+      "Product Folder Name": "RFID Active tag",
+      "Product Images1": "/images/RFID_Active_tag/RFID_Activetag.jpg",
+      "Product Images2": "/images/RFID_Active_tag/RFID_Activetag1.jpg",
+      "Product Images3": "/images/RFID_Active_tag/RFID_Activetag2.jpg",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"tag",
+      "Product Specification":{
+        "description": "The 2.4G Active Tag (Card Type) HX607 is a versatile and robust RFID solution designed for various tracking applications. It features powerful anti-jamming capabilities, a wide effective reading range up to 80 meters, and multi-tag reading of over 100 tags per second. Its ultra-low power consumption ensures a battery life of up to 3 years. The hybrid design supports both 2.4G and 13.56MHz frequencies, making it adaptable for school attendance, employee tracking, and vehicle tracking. With an IP67 rating, the HX607 is heat-resistant and built to withstand harsh environments.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Input",
+            "description": "Supports 4CH 1080P/720P AHD/TVI/CVI/IPC/Analog."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "H.265 for high compression ratio and quality."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "9-36V DC with low voltage, short circuit, reverse connection protection."
+          },
+          {
+            "feature": "Storage",
+            "description": "Supports HDD and SD cards up to 512GB."
+          },
+          {
+            "feature": "Wireless Module",
+            "description": "Built-in GPS/BD/GLONASS and 4G LTE module."
+          },
+          {
+            "feature": "Active Safety",
+            "description": "ADAS, DSM, and BSD systems for enhanced driver safety."
+          },
+          {
+            "feature": "Identify Type",
+            "description": "4 antenna inside, can use as omnidirectional and directional both."
+          },
+          {
+            "feature": "Signal Modulation Mode",
+            "description": "GFSK."
+          },
+          {
+            "feature": "Traffic Rate",
+            "description": "1 Mbit/s."
+          },
+          {
+            "feature": "Working Frequency",
+            "description": "2440 MHz."
+          },
+          {
+            "feature": "Lateral Tension (Wind-proof)",
+            "description": "20N (Typhoon level 12)."
+          },
+          {
+            "feature": "Lightning Protection Level",
+            "description": "≥ 4000V."
+          },
+          {
+            "feature": "Antenna Gain",
+            "description": "12 dBi Dual polarization directional antenna."
+          },
+          {
+            "feature": "MAX Receive Sensitivity",
+            "description": "-90 dBm."
+          },
+          {
+            "feature": "Reading Range",
+            "description": "MAX 400m (based on tag type)."
+          },
+          {
+            "feature": "IP Rating",
+            "description": "IP65."
+          },
+          {
+            "feature": "Material",
+            "description": "ABS, high temperature resistant, white color."
+          },
+          {
+            "feature": "Dimension",
+            "description": "230 x 106 x 106 mm."
+          },
+          {
+            "feature": "Input Voltage",
+            "description": "9-12V."
+          },
+          {
+            "feature": "Net Weight",
+            "description": "2 kg."
+          },
+          {
+            "feature": "Power Consumption",
+            "description": "300 mA."
+          },
+          {
+            "feature": "Power Adaptor",
+            "description": "9V 3A."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "-30℃ to +55℃."
+          },
+          {
+            "feature": "Storage Temperature",
+            "description": "-45℃ to +85℃."
+          },
+          {
+            "feature": "Transfer Method",
+            "description": "4G and TCP/IP."
+          },
+          {
+            "feature": "4G Capabilities",
+            "description": "Based on country."
+          },
+          {
+            "feature": "Type",
+            "description": "2.4G Card Type (Beacon Type, MAX RF Power)."
+          },
+          {
+            "feature": "Inductive Mode",
+            "description": "Initiative Transmit (transmit every second)."
+          },
+          {
+            "feature": "Material",
+            "description": "ABS, Heat Resistant, White Color."
+          },
+          {
+            "feature": "Dimensions",
+            "description": "86 x 55 x 5.5 mm."
+          },
+          {
+            "feature": "Battery Life",
+            "description": "Up to 3 years."
+          },
+          {
+            "feature": "Battery Model",
+            "description": "CR2032."
+          },
+          {
+            "feature": "Battery Capacity",
+            "description": "220mA."
+          },
+          {
+            "feature": "IP Grade",
+            "description": "IP67."
+          },
+          {
+            "feature": "Signal Modulation",
+            "description": "GFSK."
+          },
+          {
+            "feature": "Communication Speed",
+            "description": "1 Mbit/s."
+          },
+          {
+            "feature": "Operation Frequency",
+            "description": "2.44 GHz."
+          },
+          {
+            "feature": "Output Power",
+            "description": "0 dBm."
+          },
+          {
+            "feature": "Average Current",
+            "description": "<7 µA."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "-20℃ to +45℃."
+          },
+          {
+            "feature": "Storage Temperature",
+            "description": "-30℃ to +65℃."
+          },
+          {
+            "feature": "Operating Humidity",
+            "description": "<85%."
+          }
+        ]
+        }
+    },
+    {
+      "S. No": 50,
+      "S.No": 3,
+      "Product Name": "MR 6700A UHF Passive electronic tag",
+      "Product Code": "Passive electronic tag",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "Passive_electronictag",
+      "Product Images1": "/images/Passive_electronictag/Passive_electronictag.jpg",
+      "Product Images2": "/images/Passive_electronictag/Passive_electronictag1.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "tag",
+      "Product Specification":{
+        "description": "The MR 6700A UHF Passive Electronic Tag is designed for high-efficiency, flexible identification and tracking. It operates within the ISM 860-960MHz frequency range, suitable for both fixed frequency and frequency-hopping work modes. The tag supports ISO18000- 6C (EPC GEN2) transponders, providing a read distance of up to 8 meters, extending to over 12 meters depending on the reader and antenna. With a robust passive design requiring no battery, it offers more than 100,000 read-write cycles and a lifespan exceeding ten years. The MR 6700A can read and write multiple tags simultaneously, making it ideal for high-volume applications.",
+         "SpecializationPoints": [
+          {
+            "feature": "Frequency Range",
+            "description": "Operates within ISM 860-960MHz for broad frequency compliance."
+          },
+          {
+            "feature": "Read Distance",
+            "description": "Effective read range of up to 8 meters, extendable to over 12 meters."
+          },
+          {
+            "feature": "Work Modes",
+            "description": "Supports both fixed frequency and frequency-hopping work modes."
+          },
+          {
+            "feature": "Tag Capacity",
+            "description": "Capable of reading/writing up to 50 tags per second."
+          },
+          {
+            "feature": "Durability",
+            "description": "Passive design with no battery, allowing for over 100,000 read-write cycles."
+          },
+          {
+            "feature": "Lifespan",
+            "description": "More than ten years of effective usage."
+          },
+          {
+            "feature": "Transponders Supported",
+            "description": "Compatible with ISO18000-6C (EPC GEN2)."
+          },
+          {
+            "feature": "Material",
+            "description": "Made from PVC for durability and flexibility."
+          },
+          {
+            "feature": "Temperature Range",
+            "description": "Operates effectively between -20°C and +80°C."
+          },
+          {
+            "feature": "IC Module Options",
+            "description": "Includes Alien H3 or Impinj M4QT, R6 for advanced functionality."
+          }
+         ]
+        }
+    },
+    {
+      "S. No": 51,
+      "S.No": 4,
+      "Product Name": "UHF Windshield Tag MR6740A",
+      "Product Code": "MR6740A",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2024/4/407522011/ZR/FN/OX/108110994/uhf-rfid-windshield-tag-500x500.png",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "tag",
+      "Product Specification": {
+          "description": "The MR6740A UHF Windshield Tag is a durable, eco-friendly paper sticker designed for easy application on glass surfaces. This passive RFID tag operates within the ISM 860- 960MHz frequency range and supports ISO18000-6C and EPC Class1 Gen2 protocols. With a reading range of over 8 meters, it excels in both fixed frequency and frequency-hopping work modes. The tag features a high-performance chip and antenna with a robust anti-disturbance capability, and its read-write memory supports over 100,000 cycles with a lifespan exceeding ten years. Ideal for diverse applications, it offers a practical solution for efficient and flexible RFID integration.",
+          "SpecializationPoints": [
+            {
+              "feature": "Material",
+              "description": "Eco-friendly, tear-proof paper sticker designed for glass surfaces."
+            },
+            {
+              "feature": "Frequency Range",
+              "description": "Operates within ISM 860-960MHz."
+            },
+            {
+              "feature": "Protocols Supported",
+              "description": "ISO18000-6C and EPC Class1 Gen2."
+            },
+            {
+              "feature": "Reading Range",
+              "description": "Effective up to 8 meters, dependent on reader and antenna."
+            },
+            {
+              "feature": "Operation Mode",
+              "description": "Fixed Frequency or FHSS, software programmable for enhanced performance."
+            },
+            {
+              "feature": "Durability",
+              "description": "Passive design with no battery, supporting over 100,000 read-write cycles."
+            },
+            {
+              "feature": "Temperature Range",
+              "description": "Functional in temperatures ranging from -20°C to 80°C."
+            },
+            {
+              "feature": "Customization",
+              "description": "Allows read-write of normal data, optimizing application system efficiency."
+            },
+            {
+              "feature": "Multi-Tag Capability",
+              "description": "Can read and write multiple tags simultaneously without performance degradation."
+            },
+            {
+              "feature": "Dimensions",
+              "description": "Compact size of 85.6 x 54 mm, suitable for various applications."
+            }
+          ]
+          }
+    },
+    {
+      "S. No": 52,
+      "S.No": 1,
+      "Product Name": "2.4 GHZ RFID Active Reader (Bus)",
+      "Product Code": "AXG45",
+      "Weight in Kg": 2,
+      "Product DataSheet": "",
+      "Product Folder Name": "RFID Active Reader",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2023/8/337480837/YY/IX/LO/54257955/axelguard-2-4-ghz-bus-active-reader-with-sim-slot.jpeg",
+      "Product Images2": "https://www.marktraceiot.com/uploadfile/202007/13/371435e001d104e8d9392d4aa704365a_thumb.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 53,
+      "S.No": 2,
+      "Product Name": "2.4 GHZ RFID Active Reader (Campus)",
+      "Product Code": "AXG27",
+      "Weight in Kg": 2.5,
+      "Product DataSheet": "",
+      "Product Folder Name": "RFID Reader",
+      "Product Images1": "/images/RFID_Active_Reader/RFID_Active_reader.jpg",
+      "Product Images2": "/images/RFID_Active_Reader/RFID_Active_reader1.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 54,
+      "S.No": 3,
+      "Product Name": "2.4G IOT Smart RFID Reader (ZR7901P)",
+      "Product Code": "AXG25",
+      "Weight in Kg": 2,
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2022/2/ER/FH/RD/28895232/wifi-rfid-reader-iot-application.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"RFID",
+      "Product Specification":{
+        "description": "The 2.4G IOT Smart RFID Reader (ZR7901P) is an advanced RFID reader designed for the IoT market, ideal for data collection and location tracking. Utilizing 2.4GHz ISM open band, it features a dual-polarized directional antenna capable of reading up to 400 meters. The reader supports four antennas for precise orientation of RFID tags and includes a power failure alarm with a buffer power supply. Device management is facilitated through TCP/IP, GPRS, and Bluetooth BLE4.0. With high reliability, the MR7901P is rainproof, lightning protected, and resistant to typhoon-level winds, making it suitable for various outdoor tracking applications.",
+        "SpecializationPoints": [
+          {
+            "feature": "Video Input",
+            "description": "Supports 4CH 1080P/720P AHD/TVI/CVI/IPC/Analog."
+          },
+          {
+            "feature": "Video Compression",
+            "description": "H.265 for high compression ratio and quality."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "9-36V DC with low voltage, short circuit, reverse connection protection."
+          },
+          {
+            "feature": "Storage",
+            "description": "Supports HDD and SD cards up to 512GB."
+          },
+          {
+            "feature": "Wireless Module",
+            "description": "Built-in GPS/BD/GLONASS and 4G LTE module."
+          },
+          {
+            "feature": "Active Safety",
+            "description": "ADAS, DSM, and BSD systems for enhanced driver safety."
+          },
+          {
+            "feature": "Identify Type",
+            "description": "4 antenna inside, can use as omnidirectional and directional both."
+          },
+          {
+            "feature": "Signal Modulation Mode",
+            "description": "GFSK."
+          },
+          {
+            "feature": "Traffic Rate",
+            "description": "1 Mbit/s."
+          },
+          {
+            "feature": "Working Frequency",
+            "description": "2440 MHz."
+          },
+          {
+            "feature": "Lateral Tension (Wind-proof)",
+            "description": "20N (Typhoon level 12)."
+          },
+          {
+            "feature": "Lightning Protection Level",
+            "description": "≥ 4000V."
+          },
+          {
+            "feature": "Antenna Gain",
+            "description": "12 dBi Dual polarization directional antenna."
+          },
+          {
+            "feature": "MAX Receive Sensitivity",
+            "description": "-90 dBm."
+          },
+          {
+            "feature": "Reading Range",
+            "description": "MAX 400m (based on tag type)."
+          },
+          {
+            "feature": "IP Rating",
+            "description": "IP65."
+          },
+          {
+            "feature": "Material",
+            "description": "ABS, high temperature resistant, white color."
+          },
+          {
+            "feature": "Dimension",
+            "description": "230 x 106 x 106 mm."
+          },
+          {
+            "feature": "Input Voltage",
+            "description": "9-12V."
+          },
+          {
+            "feature": "Net Weight",
+            "description": "2 kg."
+          },
+          {
+            "feature": "Power Consumption",
+            "description": "300 mA."
+          },
+          {
+            "feature": "Power Adaptor",
+            "description": "9V 3A."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "-30℃ to +55℃."
+          },
+          {
+            "feature": "Storage Temperature",
+            "description": "-45℃ to +85℃."
+          },
+          {
+            "feature": "Transfer Method",
+            "description": "4G and TCP/IP."
+          },
+          {
+            "feature": "4G Capabilities",
+            "description": "Based on country."
+          }
+        ]
+        }
+    },
+    {
+      "S. No": 55,
+      "S.No": 4,
+      "Product Name": "2.4 G-Hz Omni-directional RFID Reader (MR3102E)",
+      "Product Code": "MR3102E",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "Omni_RFID_reader",
+      "Product Images1": "/images/Omni_RFID_reader/Omni_RFID_reader.png",
+      "Product Images2": "/images/Omni_RFID_reader/Omni_RFID_reader1.png",
+      "Product Images3": "/images/Omni_RFID_reader/Omni_RFID_reader2.png",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category":"RFID",
+      "Product Specification":
+      {
+      "description": "2.4 G Omni-directional reader suit for 'non-directional identify'. 2.4G RFID reader applying in far distance, quick identification, meeting the special demand of identification, can identify, track and orientate more than 100 active tags simultaneity. making it ideal for indoor attendance, access control, and asset management. Its ceiling mount design and double polarization minimize signal blind areas. Compatible with all RealTrack RFID active tags, it offers a reading range of 20cm to 80m. The device supports RS232 and TCP/IP communication, operates on 9V DC, and has CE and FCC certifications.",
+      "SpecializationPoints": [
+        {
+          "feature": "4G Capabilities",
+          "description": "Based on country."
+        },
+        {
+          "feature": "Type",
+          "description": "2.4G Card Type (Beacon Type, MAX RF Power)."
+        },
+        {
+          "feature": "Inductive Mode",
+          "description": "Initiative Transmit (transmit every second)."
+        },
+        {
+          "feature": "Material",
+          "description": "ABS, Heat Resistant, White Color."
+        },
+        {
+          "feature": "Dimensions",
+          "description": "86 x 55 x 5.5 mm."
+        }
+      ]
+    }
+    },
+    {
+      "S. No": 56,
+      "Product Name": "RFID UHF Long Range Integrated Reader (MR6211E)",
+      "Product Code": "MR6211E",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": "",
+      "category": "RFID",
+      "Product Specification": {
+        "description": "The MR6211E UHF Long Range RFID Reader is a high-performance device designed for versatile applications. Featuring a built-in 12 dBi antenna, it ensures an impressive reading range of up to 12 meters and supports multiple RFID tag protocols, including EPC Class1 Gen 2 and ISO 18000-6C. Its robust design is waterproof and UV-resistant, making it ideal for outdoor environments. The reader supports various communication interfaces, including Ethernet, RS232, RS485, and Wiegand, and allows for flexible parameter settings via a web interface. With a read speed of 200 tags per second, it is suitable for applications in traffic management, logistics, and access control.",
+        "SpecializationPoints": [
+          {
+            "feature": "Reading Range",
+            "description": "Up to 12 meters, adjustable via testing software."
+          },
+          {
+            "feature": "Antenna",
+            "description": "Built-in 12 dBi linear polarization antenna for long-range performance."
+          },
+          {
+            "feature": "Communication Interfaces",
+            "description": "Supports Ethernet, RS232, RS485, and Wiegand data transmission."
+          },
+          {
+            "feature": "Tag Protocols",
+            "description": "Compatible with EPC Class1 Gen 2 and ISO 18000-6C."
+          },
+          {
+            "feature": "Read Speed",
+            "description": "Capable of reading up to 200 tags per second and 2000 single tag reads per minute."
+          },
+          {
+            "feature": "Robust Design",
+            "description": "Waterproof and UV-resistant, suitable for outdoor use."
+          },
+          {
+            "feature": "Power Supply",
+            "description": "Operates on DC +9V to +15V with a power consumption of less than 15W."
+          },
+          {
+            "feature": "Processing Power",
+            "description": "Equipped with an ARM Cortex M3 100M CPU for efficient processing."
+          },
+          {
+            "feature": "Data Interfaces",
+            "description": "Includes 100M Ethernet, RS232, RS485, Wiegand 26/34, and relay outputs."
+          },
+          {
+            "feature": "Operating Temperature",
+            "description": "Functional within a wide range of -20°C to +60°C."
+          }
+        ]
+      }
+    }
+    ,
+    {
+      "S. No": 57,
+      "S.No": 1,
+      "Product Name": "MDVR Security Box",
+      "Product Code": "AXG12",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2023/5/309318443/CL/IS/LQ/76745017/ahd-1018p-4-ch-pcb-board-mobile-dvr-500x500.png",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 58,
+      "S.No": 2,
+      "Product Name": "2 way Communication Device",
+      "Product Code": "AXG63",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "2 way Communication Device",
+      "Product Images1": "/images/2wayCommunicationTool/2 Way communication.jpg",
+      "Product Images2": "/images/2wayCommunicationTool/2 Way communication1.jpg",
+      "Product Images3": "/images/2wayCommunicationTool/2 Way communication2.jpg",
+      "Product Images4": "/images/2wayCommunicationTool/2 Way communication3.jpg",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 59,
+      "S.No": 3,
+      "Product Name": "MDVR Maintenance Tool",
+      "Product Code": "AXG65",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "maintenance tool",
+      "Product Images1": "/images/MaintenanceTool/Maintance tool.jpg",
+      "Product Images2": "/images/MaintenanceTool/Maintance tool1.jpg",
+      "Product Images3": "/images/MaintenanceTool/Maintance tool2.jpg",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 60,
+      "S.No": 4,
+      "Product Name": "MDVR Remote",
+      "Product Code": "AXG66",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "MDVR Remote",
+      "Product Images1": "/images/MDVRremote/MDVR remote.jpg",
+      "Product Images2": "/images/MDVRremote/MDVR remote1.jpg",
+      "Product Images3": "/images/MDVRremote/MDVR remote2.jpg",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 61,
+      "S.No": 5,
+      "Product Name": "MDVR Panic Button",
+      "Product Code": "AXG67",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "Panic button",
+      "Product Images1": "/images/PanicButton/Panic button.jpg",
+      "Product Images2": "/images/PanicButton/panic button1.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 62,
+      "S.No": 6,
+      "Product Name": "MDVR Server",
+      "Product Code": "AXG68",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FXHnLxejG_S1ibnw2dBzt6w_OVSWGBSJZw&s",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 63,
+      "S.No": 7,
+      "Product Name": "RS 232 Adaptor",
+      "Product Code": "AXG64",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "RS 232 Adopter",
+      "Product Images1": "/images/RS232Adopter/RS 232 Adopter.jpg",
+      "Product Images2": "/images/RS232Adopter/RS 232 Adopter1.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 64,
+      "S.No": 8,
+      "Product Name": "5mt Cable",
+      "Product Code": "AXG48",
+      "Weight in Kg": 0.3,
+      "Product DataSheet": "",
+      "Product Folder Name": "5mt cable",
+      "Product Images1": "/images/5mtcable/5mt cable.jpg",
+      "Product Images2": "/images/5mtcable/5mt cable1.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 65,
+      "S.No": 9,
+      "Product Name": "15mt Cable",
+      "Product Code": "AXG49",
+      "Weight in Kg": 0.8,
+      "Product DataSheet": "",
+      "Product Folder Name": "15mt cable",
+      "Product Images1": "/images/5mtcable/5mt cable.jpg",
+      "Product Images2": "/images/5mtcable/5mt cable1.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 66,
+      "S.No": 10,
+      "Product Name": "10mt Cable",
+      "Product Code": "AXG55",
+      "Weight in Kg": 0.6,
+      "Product DataSheet": "",
+      "Product Folder Name": "10mt cable",
+      "Product Images1": "/images/5mtcable/5mt cable1.jpg",
+      "Product Images2": "/images/5mtcable/5mt cable.jpg",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 67,
+      "S.No": 11,
+      "Product Name": "VGA Cable",
+      "Product Code": "AXG50",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "VGA Cable",
+      "Product Images1": "/images/VGAcable/VGA Cable.jpg",
+      "Product Images2": "/images/VGAcable/VGA Cable1.jpg",
+      "Product Images3": "/images/VGAcable/VGA Cable2.jpg",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 68,
+      "S.No": 12,
+      "Product Name": "Alcohol Tester",
+      "Product Code": "AXG62",
+      "Weight in Kg": 1,
+      "Product DataSheet": "",
+      "Product Folder Name": "Alcohol Tester",
+      "Product Images1": "/images/AlcoholTester/Alchoal_tester1.jpg",
+      "Product Images2": "/images/AlcoholTester/Alchoal_tester.jpg",
+      "Product Images3": "/images/AlcoholTester/Alchoal_tester2.jpg",
+      "Product Images4": "/images/AlcoholTester/Alchoal_tester3.jpg",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 69,
+      "S.No": 13,
+      "Product Name": "Fuel Sensor",
+      "Product Code": "AXG74",
+      "Weight in Kg": "",
+      "Product DataSheet": "images/pdfs/Ultrasonic_Fuel.pdf",
+      "Product Folder Name": "Fuel Sensor",
+      "Product Images1": "/images/FuelSensor/Fuel_sensor.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 71,
+      "S.No": 3,
+      "Product Name": "Leaser Printer",
+      "Product Code": "AXG28",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/NM/AK/MY-3529379/laser-printer.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 72,
+      "S.No": 4,
+      "Product Name": "D link Wire Bundle",
+      "Product Code": "AXG24",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://5.imimg.com/data5/SELLER/Default/2022/12/SF/QO/HX/180556738/d-link-3-1-cctv-cable-90mtrs-bundle.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 73,
+      "S.No": 5,
+      "Product Name": "Wireless Receiver Transmitter",
+      "Product Code": "AXG73",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/611sNvF5vvL._AC_UF1000,1000_QL80_.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 74,
+      "S.No": 6,
+      "Product Name": "Parking Sensor",
+      "Product Code": "AXG36",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://m.media-amazon.com/images/I/61a9VRdaO4L.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 75,
+      "S.No": 7,
+      "Product Name": "MDVR Installation",
+      "Product Code": "AXG08",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://servision.net/wp-content/uploads/2024/03/Systems-Integration%E2%80%8B-MDVR-05-1024x576.png",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    },
+    {
+      "S. No": 76,
+      "S.No": 8,
+      "Product Name": "GPS Installation",
+      "Product Code": "AXG09",
+      "Weight in Kg": "",
+      "Product DataSheet": "",
+      "Product Folder Name": "",
+      "Product Images1": "https://4.imimg.com/data4/BM/RF/MY-22182104/gps-tracker-installation-service-500x500.jpg",
+      "Product Images2": "",
+      "Product Images3": "",
+      "Product Images4": "",
+      "Product Images5": ""
+    }
+  ]
