@@ -67,7 +67,7 @@
         <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
       </div>
 
-      <div class="newsletter">
+      <div class="newsletter" id="newsletterForm">
 
         <form action="#">
 
@@ -624,4 +624,16 @@ fetch_data();
 
     </script>
 </body>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbytGSP4IQ4HVRbpIE54WYsRO8fhIxTAPiQPk5v4sSX4WGsrDDk2kH6r1E9wBRFjf4z7xA/exec';
+  const form = document.getElementById('newsletterForm');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert('Success!'))
+      .catch(error => console.error('Error!', error.message));
+  });
+</script>
 </html>
