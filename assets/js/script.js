@@ -86,3 +86,27 @@ for (let i = 0; i < accordionBtn.length; i++) {
   });
 
 }
+document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  var email = this.querySelector('input[name="email"]').value;
+  var scriptURL = 'https://script.google.com/macros/s/AKfycbywS6WZHGgoew5k7yEeY97eT9lXg9U6rhCZPdetstMWL7J60ba0LFJvrwONbibrFQqI/exec';
+  console.log("Submitting email: " + email);
+  fetch(scriptURL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: 'email=' + encodeURIComponent(email)
+  })
+  .then(response => {
+    console.log('Success!', response);
+    alert('Thank you for subscribing!');
+    this.reset();
+  })
+  .catch(error => {
+    console.error('Error!', error.message);
+    alert('An error occurred. Please try again.');
+  });
+});
