@@ -29,6 +29,49 @@
     padding: 20px;
     background-color: #f4f4f4; /* Light background color */
 }
+.desktop-navigation-menu {
+  position: relative;
+}
+
+.dropdown-panel {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown-panel2 {
+  display: none; /* Hidden by default */
+  font-size:  14px;
+  position: absolute;
+  top: 0;
+  left: 65%; /* Show to the right of the parent */
+  margin-left: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  width: 400px; /* Adjust width as needed */
+  box-sizing: border-box;
+}
+
+.menu-category:hover .dropdown-panel {
+  display: block; /* Show dropdown on hover */
+}
+
+.submenu-title:hover + .dropdown-panel2,
+.submenu-title:focus + .dropdown-panel2 {
+  display: block; /* Show sub-menu on hover */
+}
+
+
+.menu-title {
+  padding: 10px;
+  cursor: pointer;
+}
 
 .title {
     text-align: center;
@@ -125,6 +168,22 @@
 .view-details:hover {
     background-color: #0056b3;
 }
+  .our-clients{
+    display: flex;
+    justify-content: space-between;
+  }
+  #software-download{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #6f5df3, #1905f4);
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
 
     </style>
 
@@ -146,7 +205,7 @@
         <ion-icon name="close-outline"></ion-icon>
       </button>
       <div class="newsletter-img">
-        <img src="./images/SDcardMDVR/SD card 5ch MDVR.jpg" alt="subscribe newsletter" width="400" height="400">
+        <img src="./images/SDcardMDVR/SD card 5ch MDVR.jpg" alt="subscribe newsletter" width="500" height="500">
       </div>
       <div class="newsletter">
         <form id="newsletterForm" action="#">
@@ -156,6 +215,8 @@
               Subscribe to get the latest products and discount updates.
             </p>
           </div>
+          <input type="text" name="name" class="email-field" placeholder="Full Name" required>
+          <input type="tel" name="phone" class="email-field" placeholder="Phone Number" required>
           <input type="email" name="email" class="email-field" placeholder="Email Address" required>
           <button type="submit" class="btn-newsletter">Subscribe</button>
         </form>
@@ -213,93 +274,133 @@
         </a>
   
      
-               <nav class="desktop-navigation-menu">
-                <div class="container">
-                  <ul class="desktop-menu-category-list">
-                    <li class="menu-category">
-                      <a href="index.html" class="menu-title">Home</a>
-                    </li>
-                    <li class="menu-category">
-                      <a href="all.html" class="menu-title">Products</a>
-            
-                      <div class="dropdown-panel">
+        <nav class="desktop-navigation-menu">
+          <div class="container">
+            <ul class="desktop-menu-category-list">
+              <li class="menu-category">
+                <a href="index.html" class="menu-title">Home</a>
+              </li>
+              <li class="menu-category">
+                <a class="menu-title" id="products-link">Products</a>
+                <div class="dropdown-panel" id="products-dropdown">
+                  <ul class="dropdown-panel-list">
+                    <li class="menu-title">
+                      <a class="submenu-title" href="#">Entry Level MDVR</a>
+                      <div class="dropdown-panel2">
                         <ul class="dropdown-panel-list">
-                          <li class="menu-title">
-                            <a href="all.html">Security Systems</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">CCTV Cameras</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Alarm Systems</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Access Control</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Intercoms</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">
-                              <img src="./images/10inch_dashcam/10inch dashcam2.png" alt="Security Systems" width="250" height="119">
-                            </a>
-                          </li>
-                        </ul>
-                        <ul class="dropdown-panel-list">
-                          <li class="menu-title">
-                            <a href="all.html">Smart Home</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Smart Locks</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Smart Lighting</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Smart Thermostats</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Home Automation</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">
-                              <img src="./images/4inch_dashcam_3ch/4inch dashcam1.png" alt="Smart Home" width="250" height="119">
-                            </a>
-                          </li>
-                        </ul>
-                        <ul class="dropdown-panel-list">
-                          <li class="menu-title">
-                            <a href="all.html">Network Solutions</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Routers</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Switches</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Access Points</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">Cabling</a>
-                          </li>
-                          <li class="panel-list-item">
-                            <a href="all.html">
-                              <img src="./images/720_2ch_monitor_kit/720 2ch monitor kit.jpg" alt="Network Solutions" width="250" height="119">
-                            </a>
-                          </li>
+                          <li class="menu-title">AxelGuard 8CH SD+HDD Vehicle Mobile DVR</li>
+                          <li class="menu-title">AxelGuard 4CH 1080 SD Monitor MDVR</li>
+                          <li class="menu-title">AxelGuard 2CH 1080 SD Monitor MDVR</li>
+                          <li class="menu-title">AxelGuard Bus Dashboard Camera with Screen and Parking Sensor</li>
+                          <li class="menu-title">AxelGuard MDVR 4g GPS 4CH 1080p</li>
+                          <li class="menu-title">AxelGuard 4CH SD card 1080p mobile vehicle DVR system</li>
+                          <li class="menu-title">AxelGuard 7inch HDMA Monitor for Vehicle</li>
+                          <li class="menu-title">AxelGuard Mobile Dvr with 4g and Gps 1080p</li>
+                          <li class="menu-title">AxelGuard 4CH 1080p H265 HDD Mobile vehicle DVR system</li>
+                          <li class="menu-title">AxelGuard 4CH HDD Mobile vehicle DVR system</li>
+                          <li class="menu-title">AxelGuard 4CH MDVR SD 1080p</li>
+                          <li class="menu-title">AxelGuard 7inch VGA Monitor for Vehicle</li>
+                          <li class="menu-title">AxelGuard 7inch AV Monitor car/vehicle</li>
                         </ul>
                       </div>
                     </li>
-                    <li class="menu-category">
-                      <a href="#" class="menu-title">Support</a>
+                    <li class="menu-title">
+                      <a class="submenu-title" href="#">Enhanced Version MDVR</a>
+                      <div class="dropdown-panel2">
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">AxelGuard 4G 5CH 1080p HDD/SSD (4CH + 1CH ipc) MDVR MR9704E</li>
+                          <li class="menu-title">AxelGuard 4G 10CH 1080p HDD/SSD (8CH + 2CH ipc) MDVR MR9708E</li>
+                          <li class="menu-title">AxelGuard 4G/5G (5G optional) 16CH 1080p HDD/SSD (15CH + 1CH ipc) MDVR MR9716E</li>
+                          <li class="menu-title">AxelGuard 4G 5CH 1080p SD(4CH + 1CH ipc) MDVR MR9504E/ED</li>
+                        </ul>
+                      </div>
                     </li>
-                    <li class="menu-category">
-                      <a href="#" class="menu-title">Contact Us</a>
+                    <li class="menu-title">
+                      <a class="submenu-title" href="#">MDVR & Dashcam Accessories</a>
+                      <div class="dropdown-panel2">
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">AxelGuard MDVR Bullet Camers</li>
+                          <li class="menu-title">AxelGuard 1080p 2MP Vehicle Dome Camera</li>
+                          <li class="menu-title">Dome Audio Camera</li>
+                          <li class="menu-title">Alcohol Breath Tester</li>
+                          <li class="menu-title">Maintenance Tool Kit</li>
+                          <li class="menu-title">2 way communication for MDVR</li>
+                          <li class="menu-title">Vehicle fuel Rod Sensor with GPS Device</li>
+                          <li class="menu-title">Vehicle Fuel Monitoring System</li>
+                          <li class="menu-title">Panic Button Alarm</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="menu-title">
+                      <a class="submenu-title" href="#">Active RFID</a>
+                      <div class="dropdown-panel2">
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">AxelGuard 2.4ghz Active Rfid Tag For Item Tracking</li>
+                          <li class="menu-title">AxelGuard UHF RFID Animal Ear Tracking Tag</li>
+                          <li class="menu-title">AxelGuard RFID 2.4G Active Assets Management Tag MR3848</li>
+                          <li class="menu-title">AxelGuard 2.4G Current Monitoring RFID Tag</li>
+                          <li class="menu-title">AxelGuard 2.4 GHZ RFID Active Tag Card with Battery</li>
+                          <li class="menu-title">AxelGuard 3G/4G/LTE 2.4G Ultra-Long Range Integrated Reader</li>
+                          <li class="menu-title"> AxelGuard 3G/4G/LTE 2.4G-Hz Omni-Directional RFID Reader</li>
+                          <li class="menu-title">AxelGuard 3G/4G/LTE GSM Wireless 2.4Ghz Active RFID Long Distance Reader For Attendance System</li>
+                          <li class="menu-title">AxelGuard 3G/4G/LTE 2.4GHz Omni-Directional RFID Reader For Assets Management</li>
+                          <li class="menu-title">AxelGuard 3G/4G/LTE 2.4G-Hz GSM Positing Based Active Reader</li>
+                          <li class="menu-title">AxelGuard 2.4 GHZ Bus Active Reader with Sim Slot</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="menu-title">
+                      <a class="submenu-title" href="#">AI Version MDVR</a>
+                      <div class="dropdown-panel2">
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">AxelGuard 4ch Vehicle Safety Mobile Dvr Set</li>
+                          <li class="menu-title">AxelGuard DFMS + ADAS + AI MDVR</li>
+                          <li class="menu-title">AxelGuard 4CH HD+ SD Commercial Vehicle AI MDVR System</li>
+                          <li class="menu-title">AxelGuard 4g, 4CH SD AI MDVR (MR9504ED)</li>
+                          <li class="menu-title">AxelGuard 4CH HDD Commercial Vehicle AI MDVR Vehicle System</li>
+                          <li class="menu-title">AxelGuard 8CH HDD AI MDVR (MA9708E)</li>
+                          <li class="menu-title">AxelGuard 4G 5CH 1080р SD (4ch + 1ch ipc) AI MDVR MA9504E/ED</li>
+                          <li class="menu-title">AxelGuard 4G 5CH 1080p HDD/SSD (4ch + 1ch ipc) AI MDVR MA9704E</li>
+                          <li class="menu-title">AxelGuard 4G 10CH 1080p HDD/SSD (8ch + 2ch ipc) Al MDVR MA9708E</li>
+                          <li class="menu-title">AxelGuard 4G/5G (5GOptional) 16CH 1080p HDD/SSD (15ch + 1ch ipc) AI MDVR MA9716E</li>
+                          <li class="menu-title">AxelGuard Alcohol Detection With AI MDVR ADAS + DSM</li>
+                          <li class="menu-title">AxelGuard Ignition Interlock Alcohol Tester With AI MDVR ADAS + DFMS</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="menu-title">
+                      <a class="submenu-title" href="#">Dashcams</a>
+                      <div class="dropdown-panel2">
+                        <ul class="dropdown-panel-list">
+                          <li class="menu-title">AxelGuard Black Car Dash Cam/Dvr</li>
+                          <li class="menu-title">AxelGuard 4 Inch 3 Camera Touch Screen Dashcam</li>
+                          <li class="menu-title">AxelGuard 10 Inch 4g GPS DashCam 2 Channel</li>
+                          <li class="menu-title">AxelGuard 10inch Full Touch Dashboard Camera</li>
+                          <li class="menu-title">AxelGuard WiFi, hidden Camera DashCam Vehicle Camera System</li>
+                          <li class="menu-title">AxelGuard 2K DashCam 12 Inch Full Touch Vehicle Camera System</li>
+                          <li class="menu-title">AxelGuard S2 S6 Dash CAmera Mobile Vehicle System</li>
+                          <li class="menu-title">AxelGuard 10 Inch Android Dual Lens Car DashCam Mirror Camera 4G Vehicle Camera Systemwifi, GPS</li>
+                          <li class="menu-title">AxelGuard 4K DAshCam 12 Inch Full Touch Vehicle Camera System</li>
+                          <li class="menu-title">AxelGuard 4ch 720p AI DashCam MT95C</li>
+                          <li class="menu-title">AxelGuard 10 Inch SD card HD DAshCam Touch Screen</li>
+                          <li class="menu-title">AxelGuard 2 Channel 4 Inch 1080 DashCam</li>
+                          <li class="menu-title">AxelGuard Black Box DashCam</li>
+                        </ul>
+                      </div>
                     </li>
                   </ul>
                 </div>
-              </nav>
+              </li>
+              <li class="menu-category">
+                <a href="#footer" class="menu-title">Support</a>
+              </li>
+              <li class="menu-category">
+                <a href="#footer" class="menu-title">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
       </div>
     </div>
   
@@ -583,242 +684,17 @@
 
           <div class="product-featured">
 
-            <h2 class="title">Deal of the Day</h2>
-        
-            <div class="showcase-wrapper has-scrollbar">
-        
-              <!-- <div class="showcase-container">
-        
-                <div class="showcase">
-                  
-                  <div class="showcase-banner">
-                    <img src="./images/12inch_dashcam/12inch dashcam.png" alt="Smart Watch" class="showcase-img">
-                  </div>
-        
-                  <div class="showcase-content">
-                    
-                    <div class="showcase-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-                    </div>
-        
-                    <a href="#">
-                      <h3 class="showcase-title">Smart Watch with Advanced Features</h3>
-                    </a>
-        
-                    <p class="showcase-desc">
-                      Experience the latest in wearable technology with our advanced smart watch. Features include heart rate monitoring, GPS, and more.
-                    </p>
-        
-                    <div class="price-box">
-                      <p class="price">$299.00</p>
-        
-                      <del>$350.00</del>
-                    </div>
-        
-                    <button class="add-cart-btn">Add to Cart</button>
-        
-                    <div class="showcase-status">
-                      <div class="wrapper">
-                        <p>
-                          Already Sold: <b>50</b>
-                        </p>
-        
-                        <p>
-                          Available: <b>30</b>
-                        </p>
-                      </div>
-        
-                      <div class="showcase-status-bar"></div>
-                    </div>
-        
-                    <div class="countdown-box">
-        
-                      <p class="countdown-desc">
-                        Hurry Up! Offer ends in:
-                      </p>
-        
-                      <div class="countdown">
-        
-                        <div class="countdown-content">
-                          <p class="display-number">30</p>
-                          <p class="display-text">Days</p>
-                        </div>
-        
-                        <div class="countdown-content">
-                          <p class="display-number">12</p>
-                          <p class="display-text">Hours</p>
-                        </div>
-        
-                        <div class="countdown-content">
-                          <p class="display-number">45</p>
-                          <p class="display-text">Min</p>
-                        </div>
-        
-                        <div class="countdown-content">
-                          <p class="display-number">20</p>
-                          <p class="display-text">Sec</p>
-                        </div>
-        
-                      </div>
-        
-                    </div>
-        
-                  </div>
-        
-                </div>
-        
-              </div>
-         -->
-              <!-- <div class="showcase-container">
-              
-                <div class="showcase">
-              
-                  <div class="showcase-banner">
-                    <img src="./images/2ch_AI_dashcam/2ch AI dashcam1.png" alt="Luxury Handbag" class="showcase-img">
-                  </div>
-              
-                  <div class="showcase-content">
-              
-                    <div class="showcase-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-                    </div>
-              
-                    <h3 class="showcase-title">
-                      <a href="#" class="showcase-title">Luxury Handbag</a>
-                    </h3>
-              
-                    <p class="showcase-desc">
-                      Discover elegance with our premium luxury handbag, crafted from high-quality leather and designed for style.
-                    </p>
-              
-                    <div class="price-box">
-                      <p class="price">₹1200.00</p>
-                      <del>₹1500.00</del>
-                    </div>
-              
-                    <button class="add-cart-btn"><a href="all.html" style="color:white">Shop Now</a></button>
-              
-                    <div class="showcase-status">
-                      <div class="wrapper">
-                        <p> Already Sold: <b>25</b> </p>
-              
-                        <p> Available: <b>50</b> </p>
-                      </div>
-              
-                      <div class="showcase-status-bar"></div>
-                    </div>
-              
-                    <div class="countdown-box">
-                      <p class="countdown-desc">Hurry Up! Offer ends in:</p>
-                      <div class="countdown">
-                        <div class="countdown-content" id="days">
-                          <p class="display-number">02</p>
-                          <p class="display-text">Days</p>
-                        </div>
-                        <div class="countdown-content" id="hours">
-                          <p class="display-number">01</p>
-                          <p class="display-text">Hours</p>
-                        </div>
-                        <div class="countdown-content" id="minutes">
-                          <p class="display-number">20</p>
-                          <p class="display-text">Min</p>
-                        </div>
-                        <div class="countdown-content" id="seconds">
-                          <p class="display-number">00</p>
-                          <p class="display-text">Sec</p>
-                        </div>
-                      </div>
-                    </div>
-                    
-              
-                  </div>
-              
-                </div>
-              
-              </div>
-         -->
-              <!-- New MDVR Product Section -->
-              <div class="showcase-container">
-              
-                <div class="showcase">
-              
-                  <div class="showcase-banner">
-                    <img src="./images/BasicMDVR/Basic MDVR.jpg" alt="MDVR Device" class="showcase-img">
-                  </div>
-              
-                  <div class="showcase-content">
-              
-                    <div class="showcase-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-                    </div>
-              
-                    <h3 class="showcase-title">
-                      <a href="#" class="showcase-title">MDVR Device for Vehicles</a>
-                    </h3>
-              
-                    <p class="showcase-desc">
-                      Enhance your vehicle's security with our advanced MDVR device. Offers real-time video recording and GPS tracking.
-                    </p>
-              
-                    <div class="price-box">
-                      <p class="price">₹499.00</p>
-                      <del>₹600.00</del>
-                    </div>
-              
-                    <button class="add-cart-btn"><a href="all.html" style="color:white">Shop Now</a></button>
-              
-                    <div class="showcase-status">
-                      <div class="wrapper">
-                        <p> Already Sold: <b>10</b> </p>
-              
-                        <p> Available: <b>20</b> </p>
-                      </div>
-              
-                      <div class="showcase-status-bar"></div>
-                    </div>
-              
-                    <!-- <div class="countdown-box">
-                      <p class="countdown-desc">Hurry Up! Offer ends in:</p>
-                      <div class="countdown">
-                        <div class="countdown-content" id="days">
-                          <p class="display-number">08</p>
-                          <p class="display-text">Days</p>
-                        </div>
-                        <div class="countdown-content" id="hours">
-                          <p class="display-number">01</p>
-                          <p class="display-text">Hours</p>
-                        </div>
-                        <div class="countdown-content" id="minutes">
-                          <p class="display-number">09</p>
-                          <p class="display-text">Min</p>
-                        </div>
-                        <div class="countdown-content" id="seconds">
-                          <p class="display-number">20</p>
-                          <p class="display-text">Sec</p>
-                        </div>
-                      </div>
-                    </div> -->
-                    
-              
-                  </div>
-              
-                </div>
-              
-              </div>
-        
-            </div>
+            <h2 class="title">Our Valuable Clients</h2>
+             <div class="our-clients">
+               <img src="https://axel-guard.com/cdn/shop/files/Ama1.png" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/zama.png" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/up1.jpg" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/sam.png" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/crpf.png" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/bsf.jpg" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/Dps.jpg" alt="BSF" width="142">
+               <img src="https://axel-guard.com/cdn/shop/files/gd.png" alt="BSF" width="142">
+             </div>
         
           </div>
         
@@ -869,7 +745,7 @@
     
               <p class="testimonial-title">About AxelGuard </p>
     
-              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+              <img src="images/quotes.svg" alt="quotation" class="quotation-img" width="26">
     
               <p class="testimonial-desc">
                 "Axel Guard has transformed our security protocols with cutting-edge technology and exceptional service. Highly recommended!"
@@ -1035,15 +911,6 @@
     
           <div class="gallery-card">
             <div class="gallery-image">
-              <img src="./images/Indore_dome_camera/Indoor_Dome_camera1.jpg" alt="Expert Consulting Services" width="300" class="gallery-banner">
-              <div class="gallery-overlay">
-                <h3 class="gallery-heading">Expert Consulting Services</h3>
-              </div>
-            </div>
-          </div>
-    
-          <div class="gallery-card">
-            <div class="gallery-image">
               <img src="./images/AI_mdvr/Al mdvr 2.jpg" alt="Reliable Support & Maintenance" width="300" class="gallery-banner">
               <div class="gallery-overlay">
                 <h3 class="gallery-heading">Reliable Support & Maintenance</h3>
@@ -1061,13 +928,22 @@
   </main>
 
 
+  <div class="product-featured" style="display: flex; justify-content: space-evenly;">
 
+    <h2 class="title">Click here to download MDVR PC Client Software </h2>
+     <div>
+      <a id="software-download" href="https://drive.google.com/file/d/1Tnpgf4sptsVaVf_XR_5CaRBlW1oHlv49/view?export=download" download="">
+        Download Client Software
+      </a>
+     </div>
+
+  </div>
 
 
   <!--
     - FOOTER
   -->
-  <footer>
+  <footer id="footer">
 
     <div class="footer-category">
   
@@ -1109,77 +985,105 @@
       <div class="container">
   
         <ul class="footer-nav-list">
-  
           <li class="footer-nav-item">
-            <h2 class="nav-title">Company Info</h2>
+            <h2 class="nav-title">Service & IT Assistance</h2>
           </li>
-  
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">About Us</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <a href="#" class="footer-nav-link">Monday - Saturday</a>
           </li>
-  
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Our Team</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+            <a href="#" class="footer-nav-link">10:00 AM - 7:00 PM</a>
           </li>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
   
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Careers</a>
+            <a href="mailto:it.realtrack@gmail.com" class="footer-nav-link">it.realtrack@gmail.com</a>
           </li>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
   
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Blog</a>
+            <a href="tel:+917303598592" class="footer-nav-link">+91 7303598592</a>
           </li>
-  
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Contact Us</a>
-          </li>
-  
         </ul>
   
         <ul class="footer-nav-list">
-        
           <li class="footer-nav-item">
-            <h2 class="nav-title">Support</h2>
+            <h2 class="nav-title">Sales & Support</h2>
           </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">FAQs</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <a href="#" class="footer-nav-link">Monday - Saturday</a>
           </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Help Center</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+            <a href="#" class="footer-nav-link">10:00 AM - 7:00 PM</a>
           </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Technical Support</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+  
+            <a href="mailto:sales.realtrack@gmail.com" class="footer-nav-link">sales.realtrack@gmail.com</a>
           </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Warranty Information</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+  
+            <a href="tel:+919650644714" class="footer-nav-link">+91 9650644714</a>
           </li>
-        
         </ul>
   
         <ul class="footer-nav-list">
-        
           <li class="footer-nav-item">
-            <h2 class="nav-title">Legal</h2>
+            <h2 class="nav-title">Connect with Our CEO</h2>
           </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Privacy Policy</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <a href="#" class="footer-nav-link">Monday - Saturday</a>
           </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Terms of Service</a>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+            <a href="#" class="footer-nav-link">10:00 AM - 7:00 PM</a>
           </li>
-        
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+  
+            <a href="mailto:info@axel-guard.com" class="footer-nav-link">info@axel-guard.com</a>
+          </li>
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+  
+            <a href="tel:+918755311835" class="footer-nav-link">+91 8755311835</a>
+          </li>
         </ul>
   
         <ul class="footer-nav-list">
   
           <li class="footer-nav-item">
-            <h2 class="nav-title">Connect with Us</h2>
+            <h2 class="nav-title">Address</h2>
           </li>
   
           <li class="footer-nav-item flex">
@@ -1188,27 +1092,12 @@
             </div>
   
             <address class="content">
-              123 Security Lane
-              Tech City, TX 75001, USA
+              Office No 210
+              Second Floor PC Chamber
+              Sector 66, Noida
+              Uttar Pradesh - 201301
             </address>
-          </li>
-  
-          <li class="footer-nav-item flex">
-            <div class="icon-box">
-              <ion-icon name="call-outline"></ion-icon>
-            </div>
-  
-            <a href="tel:+1234567890" class="footer-nav-link">(123) 456-7890</a>
-          </li>
-  
-          <li class="footer-nav-item flex">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-  
-            <a href="mailto:support@axel-guard.com" class="footer-nav-link">support@axel-guard.com</a>
-          </li>
-  
+          </li> 
         </ul>
   
         <ul class="footer-nav-list">
@@ -1256,9 +1145,7 @@
     <div class="footer-bottom">
   
       <div class="container">
-  
-        <img src="./assets/images/payment.png" alt="Payment Methods" class="payment-img">
-  
+    
         <p class="copyright">
           &copy; <a href="#">Axel Guard</a> 2024. All rights reserved.
         </p>
@@ -1364,8 +1251,14 @@ function populateCategory(containerId, items) {
     // Get the product-grid container
     const productGrid = document.getElementById('product-grid');
 
-    // Shuffle the data array to get 10 random products
-    const shuffledData = data.sort(() => Math.random() - 0.5).slice(0, 10);
+    // Filter products that have both an image and a name
+    const validProducts = data.filter(product => 
+      product['Product Images1'] && 
+      product['Product Name']
+    );
+
+    // Shuffle the filtered data array to get 8 random products
+    const shuffledData = validProducts.sort(() => Math.random() - 0.5).slice(0, 8);
 
     // Loop through the shuffled data and create product cards
     shuffledData.forEach(product => {
@@ -1378,7 +1271,7 @@ function populateCategory(containerId, items) {
 
       const productImg = document.createElement('img');
       productImg.classList.add('product-img');
-      productImg.src = product['Product Images1'] || 'default-image.jpg'; // Fallback image
+      productImg.src = product['Product Images1'];
       productImg.alt = product['Product Name'];
 
       imageContainer.appendChild(productImg);
@@ -1392,26 +1285,28 @@ function populateCategory(containerId, items) {
 
       const productDescription = document.createElement('p');
       productDescription.classList.add('product-description');
-      productDescription.textContent = product['Product Specification']['description'] || 'No description available';
+      productDescription.textContent = product['Product Specification'] && product['Product Specification']['description'] 
+        ? product['Product Specification']['description'] 
+        : 'No description available';
 
       const productCategory = document.createElement('a');
       productCategory.classList.add('product-category');
       productCategory.href = '#';
-      productCategory.textContent = product['Product Folder Name'];
+      productCategory.textContent = product['Product Folder Name'] || 'Uncategorized';
 
       // Create the 'View Details' link
       const viewDetails = document.createElement('a');
       viewDetails.classList.add('view-details');
-      viewDetails.href = `description.html?productCode=${product['Product Code']}`; // Assuming 'Product Code' is the unique identifier
+      viewDetails.href = `description.html?productCode=${encodeURIComponent(product['Product Code'])}`;
       viewDetails.textContent = 'View Details';
 
       // Attach click event to the product image and name to redirect to details page
       imageContainer.addEventListener('click', () => {
-        window.location.href = `description.html?productCode=${product['Product Code']}`;
+        window.location.href = `description.html?productCode=${encodeURIComponent(product['Product Code'])}`;
       });
 
       productName.addEventListener('click', () => {
-        window.location.href = `description.html?productCode=${product['Product Code']}`;
+        window.location.href = `description.html?productCode=${encodeURIComponent(product['Product Code'])}`;
       });
 
       productDetails.appendChild(productCategory);
@@ -1427,9 +1322,8 @@ function populateCategory(containerId, items) {
     });
   })
   .catch(error => {
-    console.error('Error fetching data:', error);
+    console.error('Error fetching or processing data:', error);
   });
-
 
 
   document.addEventListener('DOMContentLoaded', () => {

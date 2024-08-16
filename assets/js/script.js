@@ -89,16 +89,20 @@ for (let i = 0; i < accordionBtn.length; i++) {
 document.getElementById('newsletterForm').addEventListener('submit', function(e) {
   e.preventDefault();
   
+  var name = this.querySelector('input[name="name"]').value;
+  var phone = this.querySelector('input[name="phone"]').value;
   var email = this.querySelector('input[name="email"]').value;
-  var scriptURL = 'https://script.google.com/macros/s/AKfycbywS6WZHGgoew5k7yEeY97eT9lXg9U6rhCZPdetstMWL7J60ba0LFJvrwONbibrFQqI/exec';
-  console.log("Submitting email: " + email);
+  var scriptURL = 'https://script.google.com/macros/s/AKfycbxkL0bO2v1SfqXmiis6KEoeXPX04x27g1LeTuYJbydGkLsXqwx0eH1syyQnU9d_cToA/exec';
+  
+  console.log("Submitting form data: " + name + ", " + phone + ", " + email);
+  
   fetch(scriptURL, {
     method: 'POST',
     mode: 'no-cors',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     },
-    body: 'email=' + encodeURIComponent(email)
+    body: 'name=' + encodeURIComponent(name) + '&phone=' + encodeURIComponent(phone) + '&email=' + encodeURIComponent(email)
   })
   .then(response => {
     console.log('Success!', response);

@@ -2503,7 +2503,7 @@ footer {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    max-width: 750px;
+    max-width: 878px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -2811,8 +2811,7 @@ footer {
     left: 0;
     background: var(--white);
     width: 100%;
-    display: -ms-grid;
-    display: grid;
+    display: row;
     -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -2846,9 +2845,7 @@ footer {
   .dropdown-panel-list .menu-title a {
     color: var(--onyx);
     font-size: var(--fs-7);
-    font-weight: var(--weight-600);
     padding-bottom: 10px;
-    border-bottom: 1px solid var(--cultured);
     margin-bottom: 10px;
   }
 
